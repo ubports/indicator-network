@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2016-08-14 14:18+0000\n"
-"Last-Translator: samson <Unknown>\n"
-"Language-Team: Amharic <am@li.org>\n"
+"PO-Revision-Date: 2018-11-25 00:00+0000\n"
+"Last-Translator: Samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
+"indicator-network/am/>\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
-"Language: am\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -41,7 +42,7 @@ msgstr "መሰረዣ"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr "ሌሎች ኔትዎርኮች..."
+msgstr "ሌሎች ኔትዎርኮች…"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
@@ -78,7 +79,7 @@ msgstr "ምልክት የለም"
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "ከመስመር ውጪ"
+msgstr "ከ መስመር ውጪ"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
@@ -92,12 +93,12 @@ msgstr "በ በረራ ዘዴ"
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr "ሴሉላር ዳታ"
+msgstr "የ ሴሉላር ዳታ"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:221
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr "ሆትስፖት"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
