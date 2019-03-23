@@ -1,271 +1,255 @@
-# Basque translation for indicator-network
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the indicator-network package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-network\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2018-11-25 00:00+0000\n"
-"Last-Translator: Aitzol Berasategi <aitzol@disroot.org>\n"
-"Language-Team: Basque <https://translate.ubports.com/projects/ubports/"
-"indicator-network/eu/>\n"
-"Language: eu\n"
+"PO-Revision-Date: 2018-11-25 00:01+0000\n"
+"Last-Translator: Louies <louies0623@gmail.com>\n"
+"Language-Team: Chinese (Hong Kong) <https://translate.ubports.com/projects/"
+"ubports/indicator-network/zh_Hant_HK/>\n"
+"Language: zh_Hant_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.1.1\n"
-"X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr "Konektatu \"%1\"(e)ra"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
-msgstr "WPA"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:68
 msgid "WEP"
-msgstr "WEP"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:74
 msgid "Connect"
-msgstr "Konektatu"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "取消"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr "Beste sare bat..."
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr "SIMik ez"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr "SIM errorea"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr "SIMa blokeatuta"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr "Erregistratu gabea"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
-msgstr "Ezezaguna"
+msgstr "未知"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr "Ukatua"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr "Bilatzen"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr "Seinalerik ez"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Lineaz kanpo"
+msgstr "離線"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr "Wifia"
+msgstr "Wi-Fi"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
 msgid "Flight Mode"
-msgstr "Hegaldi modua"
+msgstr ""
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr "Datu mugikorrak"
+msgstr ""
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr "Wifigunea"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr "Sentitzen dugu, %{1} PINa okerra da."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr "Hau duzu azken saiakera."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
-msgstr "%{1} PINa oker sartuz gero, PUK kodea beharko da desblokeatzeko."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr "Sentitzen dugu, zure %{1} orain blokeatuta dago."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr "Sartu zure PUK kodea SIM txartela desblokeatzeko."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
 msgstr ""
-"Agian zure sare-hornitzailearekin harremanetan jarri beharko zara PUK kodea "
-"lortzeko."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr "Sentitzen dugu, PUKa okerra da."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
-"PUK kodea oker sartuz gero, SIM txartela blokeatuko da eta ordeztu beharra "
-"izango duzu."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr "Jarri zure sare-hornitzailearekin harremanetan."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
 msgstr ""
-"SIM txartela orain behin betiko blokeatuta dago, eta ordeztu beharra duzu."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr "Jarri zure zerbitzu-hornitzailearekin harremanetan."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr "Sentitzen dugu, PINa okerra da"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr "Sentitzen dugu, PUKa okerra da"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr "Sartu %{1} PINa"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr "Sartu PUK kodea"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr "Sartu %{1}(r)entzako PUK kodea"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] "Saiakera 1 gehiago duzu"
-msgstr[1] "%d saiakera gehiago dituzu"
+msgstr[0] ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr "Sartu %{1} PIN berria"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr "Berretsi %{1} PIN berria"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr "PIN kodeak ez datoz bat."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr "'%1' VPN konexioak huts egin du."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
-msgstr "'%1' VPN konexioak huts egin du sare-konexioa eten delako."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
-"'%1' VPN konexioak huts egin du VPN zerbitzua ustekabean gelditu delako."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
-"'%1' VPN konexioak huts egin du VPN zerbitzuak konfigurazio baliogabea "
-"itzuli duelako."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
 msgstr ""
-"'%1' VPN konexioak huts egin du konexio-saiakera denboraz kanpo gelditu "
-"delako."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr "'%1' VPN konexioak huts egin du VPN zerbitzua ez delako garaiz hasi."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
-"'%1' VPN konexioak huts egin du VPN zerbitzua hasteak huts egin duelako."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
-"'%1' VPN konexioak huts egin du ez zegoelako baliozko VPN sekreturik."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr "'%1' VPN konexioak huts egin du VPN sekretu baliogabeengatik."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr "VPN konexioak huts egin du"
+msgstr ""
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "Datu mugikorren ezarpenak..."
+msgstr ""
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr "VPN ezarpenak..."
+msgstr ""
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
-msgstr "Wifiaren ezarpenak..."
+msgstr ""
 
 #. TRANSLATORS: this is the indicator title shown on the top header of the indicator area
 #: ../src/indicator/root-state.cpp:306
 msgid "Network"
-msgstr "Sarea"
+msgstr "網絡"
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr "%1 VPN konexioa"
+msgstr ""

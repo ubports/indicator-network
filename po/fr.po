@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2018-08-04 09:01+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
+"PO-Revision-Date: 2019-03-17 00:00+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "indicator-network/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
@@ -79,7 +79,7 @@ msgstr "Aucun signal"
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Déconnecté"
+msgstr "Déconnecté(e)"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
@@ -262,7 +262,7 @@ msgstr "La connexion au RPV a échoué"
 
 #: ../src/indicator/sections/wwan-section.cpp:102
 msgid "Cellular settings…"
-msgstr "Paramètres du mobile…"
+msgstr "Paramètres cellulaires…"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
