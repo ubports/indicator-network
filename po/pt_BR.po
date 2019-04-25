@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2016-02-15 17:40+0000\n"
-"Last-Translator: Tiago Hillebrandt <tiagohillebrandt@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"PO-Revision-Date: 2019-04-25 19:14+0000\n"
+"Last-Translator: Vinícius F <magnetuz@protonmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.ubports.com/projects/"
+"ubports/indicator-network/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.2.2\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
-"Language: pt_BR\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -41,7 +42,7 @@ msgstr "Cancelar"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr "Outra rede..."
+msgstr "Outra rede…"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
@@ -92,16 +93,16 @@ msgstr "Modo avião"
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr ""
+msgstr "Dados do celular"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:221
 msgid "Hotspot"
-msgstr ""
+msgstr "Ponto de acesso (Hotspot)"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr "Desculpe, PIN %{1} incorreto"
+msgstr "Desculpe, PIN %{1} incorreto."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
@@ -244,19 +245,19 @@ msgstr "A conexão VPN '%1' falhou devido a senhas VPN inválidas."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr ""
+msgstr "Conexão VPN falhou"
 
 #: ../src/indicator/sections/wwan-section.cpp:102
 msgid "Cellular settings…"
-msgstr "Configurações do celular..."
+msgstr "Configurações do celular…"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr "Configurações de VPN..."
+msgstr "Configurações de VPN…"
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
-msgstr "Configurações de rede sem fio..."
+msgstr "Configurações de rede sem fio…"
 
 #. TRANSLATORS: this is the indicator title shown on the top header of the indicator area
 #: ../src/indicator/root-state.cpp:306
