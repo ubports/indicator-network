@@ -1,274 +1,254 @@
-# Dutch translation for indicator-network
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the indicator-network package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-network\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2019-03-31 00:00+0000\n"
-"Last-Translator: Tom Dom <thomas@patoel.nl>\n"
-"Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
-"indicator-network/nl/>\n"
-"Language: nl\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
-"X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr "Verbinden met “%1”"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
-msgstr "WPA"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:68
 msgid "WEP"
-msgstr "WEP"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:74
 msgid "Connect"
-msgstr "Verbinden"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr ""
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr "Ander netwerk…"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr "Geen simkaart"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr "Simkaartfout"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr "Simkaart geblokkeerd"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr "Niet geregistreerd"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
-msgstr "Onbekend"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr "Geweigerd"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr "Zoeken"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr "Geen bereik"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Offline"
+msgstr ""
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr ""
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
 msgid "Flight Mode"
-msgstr "Vliegtuigstand"
+msgstr ""
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr "Mobiele gegevens"
+msgstr ""
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr "De opgegeven pincode van %{1} is onjuist."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr "Dit is je laatste poging."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
 msgstr ""
-"Als de %{1}-pincode nu weer onjuist wordt ingevoerd, dan heb je de PUK-code "
-"nodig om te deblokkeren."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr "Je %{1} is nu geblokkeerd."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr "Voer de pukcode in om de simkaart te deblokkeren."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr "Je kunt eventueel contact opnemen met je provider voor de pukcode."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr "Onjuiste pukcode."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
-"Als je de pukcode nu weer onjuist wordt invoert, dan wordt de simkaart "
-"definitief geblokkeerd worden en moet je deze vervangen."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr "Neem contact op met je provider."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr "Je simkaart is nu definitief geblokkeerd en moet worden vervangen."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr "Neem contact op met je provider."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr "Onjuiste pincode"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr "Onjuiste pukcode"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr "Voer de pincode in voor %{1}"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr "Voer de pukcode in"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr "Voer de pukcode in voor %{1}"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] "Nog 1 poging"
-msgstr[1] "Nog %d pogingen"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr "Voer de nieuwe pincode in voor %{1}"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr "Bevestig de nieuwe pincode voor %{1}"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr "De pincodes komen niet overeen."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr "De VPN-verbinding '%1' is mislukt."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
 msgstr ""
-"De VPN-verbinding '%1' is mislukt omdat de internetverbinding werd "
-"onderbroken."
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
-"De VPN-verbinding '%1' is mislukt omdat de VPN-dienst onverwachts is gestopt."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
-"De VPN-verbinding '%1' is mislukt omdat de VPN-dienst een ongeldige "
-"configuratie doorstuurde."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
 msgstr ""
-"De VPN-verbinding '%1' is mislukt omdat er een time-out is opgetreden in de "
-"verbinding."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
 msgstr ""
-"De VPN-verbinding '%1' is mislukt omdat de VPN-dienst niet op tijd is "
-"gestart."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
-"De VPN-verbinding '%1' is mislukt omdat de VPN-dienst kan worden gestart."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
-"De VPN-verbinding '%1' is mislukt omdat er geen geldige VPN-inloggevens zijn."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr "De VPN-verbinding '%1' is mislukt vanwege ongeldige VPN-inloggegevens."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr "VPN-verbinding mislukt"
+msgstr ""
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "Mobiel internet-instellingen…"
+msgstr ""
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr "VPN-instellingen…"
+msgstr ""
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
-msgstr "Wi-Fi-instellingen…"
+msgstr ""
 
 #. TRANSLATORS: this is the indicator title shown on the top header of the indicator area
 #: ../src/indicator/root-state.cpp:306
 msgid "Network"
-msgstr "Netwerk"
+msgstr ""
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr "VPN-verbinding %1"
+msgstr ""
