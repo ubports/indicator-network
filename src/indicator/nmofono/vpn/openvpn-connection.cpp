@@ -347,7 +347,8 @@ public:
                 {Cipher::CAMELLIA_256_CBC, "CAMELLIA-256-CBC",},
                 {Cipher::SEED_CBC, "SEED-CBC"},
                 {Cipher::AES_128_CBC_HMAC_SHA1, "AES-128-CBC-HMAC-SHA1"},
-                {Cipher::AES_256_CBC_HMAC_SHA1, "AES-256-CBC-HMAC-SHA1"}
+                {Cipher::AES_256_CBC_HMAC_SHA1, "AES-256-CBC-HMAC-SHA1"},
+                {Cipher::NONE, "none"}
             };
             if (m_cipher != Cipher::DEFAULT_CIPHER)
             {
@@ -604,7 +605,8 @@ public:
             {"CAMELLIA-256-CBC", Cipher::CAMELLIA_256_CBC},
             {"SEED-CBC", Cipher::SEED_CBC},
             {"AES-128-CBC-HMAC-SHA1", Cipher::AES_128_CBC_HMAC_SHA1},
-            {"AES-256-CBC-HMAC-SHA1", Cipher::AES_256_CBC_HMAC_SHA1}
+            {"AES-256-CBC-HMAC-SHA1", Cipher::AES_256_CBC_HMAC_SHA1},
+            {"none", Cipher::NONE}
         };
 
         auto it = data.constFind("cipher");

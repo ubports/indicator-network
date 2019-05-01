@@ -70,7 +70,8 @@ public:
         CAMELLIA_256_CBC,
         SEED_CBC,
         AES_128_CBC_HMAC_SHA1,
-        AES_256_CBC_HMAC_SHA1
+        AES_256_CBC_HMAC_SHA1,
+        NONE
     };
 
     enum Auth

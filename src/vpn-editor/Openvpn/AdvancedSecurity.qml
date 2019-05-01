@@ -55,6 +55,7 @@ Page {
                     i18n.tr("SEED-CBC"),
                     i18n.tr("AES-128-CBC-HMAC-SHA1"),
                     i18n.tr("AES-256-CBC-HMAC-SHA1"),
+                    i18n.tr("NONE"),
                 ]
                 selectedIndex: connection.cipher
                 onSelectedIndexChanged: connection.cipher = selectedIndex
