@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Mobiilidata"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Yhteyspiste"
 
@@ -228,28 +228,25 @@ msgstr ""
 "VPN-yhteys '%1' epäonnistui, koska VPN-palvelu ei käynnistynyt ajallaan."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "VPN-yhteys '%1' epäonnistui, koska VPN-palvelun käynnistyminen epäonnistui."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "VPN-yhteys '%1' epäonnistui, koska tarjolla ei ole kelvollisia VPN-"
 "salaisuuksia."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr ""
-"VPN-yhteys '%1' epäonnistui, koska VPN-salaisuudet ovat virheelliset."
+msgstr "VPN-yhteys '%1' epäonnistui, koska VPN-salaisuudet ovat virheelliset."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
 msgstr "VPN-yhteys epäonnistui"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Mobiiliverkon asetukset…"
 

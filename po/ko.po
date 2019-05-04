@@ -11,13 +11,13 @@ msgstr ""
 "PO-Revision-Date: 2016-02-15 17:40+0000\n"
 "Last-Translator: Pete Woods <Unknown>\n"
 "Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 "X-Generator: Launchpad (build 18246)\n"
-"Language: ko\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -95,7 +95,7 @@ msgid "Cellular data"
 msgstr "데이터 네트워크"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "핫스팟"
 
@@ -112,7 +112,8 @@ msgstr "마지막 시도입니다."
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
 msgstr ""
-"입력한 %{1} 개인 식별 번호가 올바르지 않으면 개인 식별 번호 잠금 해체 키를 입력해야 잠긴 심 카드를 해제할 수 있습니다."
+"입력한 %{1} 개인 식별 번호가 올바르지 않으면 개인 식별 번호 잠금 해체 키를 입"
+"력해야 잠긴 심 카드를 해제할 수 있습니다."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
@@ -120,7 +121,8 @@ msgstr "죄송합니다. %{1}을(를) 차단합니다."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr "잠긴 심 카드를 해제하려면 개인 식별 번호 잠금 해체 코드를 입력하십시오."
+msgstr ""
+"잠긴 심 카드를 해제하려면 개인 식별 번호 잠금 해체 코드를 입력하십시오."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
@@ -135,7 +137,9 @@ msgstr "개인 식별 번호 잠금 해제 코드가 올바르지 않습니다."
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
-msgstr "올바르지 않은 개인 식별 번호 잠금 해체 코드를 입력하면 심 카드를 영구히 차단해 교체해야 합니다."
+msgstr ""
+"올바르지 않은 개인 식별 번호 잠금 해체 코드를 입력하면 심 카드를 영구히 차단"
+"해 교체해야 합니다."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
@@ -200,13 +204,17 @@ msgstr "네트워크 연결이 중단되어 가상 사설망 '%1'에 연결하�
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
-msgstr "가상 사설망 서비스가 예상하지 못하게 정지해 가상 사설망 '%1'에 연결하지 못했습니다."
+msgstr ""
+"가상 사설망 서비스가 예상하지 못하게 정지해 가상 사설망 '%1'에 연결하지 못했"
+"습니다."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
-msgstr "가상 사설망 서비스가 올바르지 않은 설정을 반환해 가상 사설망 '%1'에 연결하지 못했습니다."
+msgstr ""
+"가상 사설망 서비스가 올바르지 않은 설정을 반환해 가상 사설망 '%1'에 연결하지 "
+"못했습니다."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
@@ -216,27 +224,31 @@ msgstr "연결 시도 횟수가 제한을 초과해 가상 사설망 '%1'에 연
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr "가상 사설망 서비스가 제때 시작하지 않아 가상 사설망 '%1'에 연결하지 못했습니다."
+msgstr ""
+"가상 사설망 서비스가 제때 시작하지 않아 가상 사설망 '%1'에 연결하지 못했습니"
+"다."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
-msgstr "가상 사설망 서비스가 시작되지 않아 가상 사설망 '%1'에 연결하지 못했습니다."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
+msgstr ""
+"가상 사설망 서비스가 시작되지 않아 가상 사설망 '%1'에 연결하지 못했습니다."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
-msgstr "유효한 가상 사설망 비밀 정보가 없어 가상 사설망 '%1'에 연결하지 못했습니다."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
+msgstr ""
+"유효한 가상 사설망 비밀 정보가 없어 가상 사설망 '%1'에 연결하지 못했습니다."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr "유효하지 않은 가상 사설망 비밀 정보 때문에 가상 사설망 '%1'에 연결하지 못했습니다."
+msgstr ""
+"유효하지 않은 가상 사설망 비밀 정보 때문에 가상 사설망 '%1'에 연결하지 못했습"
+"니다."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
 msgstr "가상 사설망 연결 실패"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "셀룰러 네트워크 설정..."
 

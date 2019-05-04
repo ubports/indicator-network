@@ -11,13 +11,13 @@ msgstr ""
 "PO-Revision-Date: 2016-04-30 09:33+0000\n"
 "Last-Translator: Richard Somlói <ricsipontaz@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 "X-Generator: Launchpad (build 18246)\n"
-"Language: hu\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -95,7 +95,7 @@ msgid "Cellular data"
 msgstr "Mobiladatok"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Hotspot"
 
@@ -147,8 +147,7 @@ msgstr "Vegye fel a kapcsolatot a szolgáltatójával."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr ""
-"A SIM kártyája véglegesen blokkolva lett és szüksége lesz egy másikra."
+msgstr "A SIM kártyája véglegesen blokkolva lett és szüksége lesz egy másikra."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
@@ -233,15 +232,13 @@ msgstr ""
 "el időben."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN szolgáltatás nem indult "
 "el időben."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN nem rendelkezik "
 "érvényes kulcsokkal."
@@ -255,7 +252,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr "A VPN kapcsolat meghiúsult"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Mobilhálózat beállítások…"
 

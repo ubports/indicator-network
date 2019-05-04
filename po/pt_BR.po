@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Dados do celular"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Ponto de acesso (Hotspot)"
 
@@ -208,8 +208,7 @@ msgstr "A conexão VPN '%1' falhou porque a conexão de rede foi interrompida."
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
-msgstr ""
-"A conexão VPN '%1' falhou porque o serviço VPN parou inesperadamente."
+msgstr "A conexão VPN '%1' falhou porque o serviço VPN parou inesperadamente."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
@@ -230,13 +229,11 @@ msgid ""
 msgstr "A conexão VPN '%1' falhou porque o serviço VPN não começou a tempo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "A conexão VPN '%1' falhou porque o serviço VPN falhou ao iniciar."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr "A conexão VPN '%1' falhou porque não haviam senhas VPN válidas."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -247,7 +244,7 @@ msgstr "A conexão VPN '%1' falhou devido a senhas VPN inválidas."
 msgid "VPN Connection Failed"
 msgstr "Conexão VPN falhou"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Configurações do celular…"
 

@@ -11,13 +11,13 @@ msgstr ""
 "PO-Revision-Date: 2016-06-22 04:58+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@gmail.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 "X-Generator: Launchpad (build 18246)\n"
-"Language: fa\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -95,7 +95,7 @@ msgid "Cellular data"
 msgstr "دادهٔ سلّولی"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "نقطهٔ داغ"
 
@@ -124,8 +124,7 @@ msgstr "لطفاً برای باز کردن قفل سیم کارت PUK خود ر
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr ""
-"ممکن است لازم باشد برای رمز PUK با فراهم کننده‌ی شبکه‌تان تماس بگیرید."
+msgstr "ممکن است لازم باشد برای رمز PUK با فراهم کننده‌ی شبکه‌تان تماس بگیرید."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
@@ -203,16 +202,15 @@ msgstr "اتّصال وی‌پی‌ان %1 به دلیل وقفه در اتّص�
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
-msgstr ""
-"اتّصال وی‌پی‌ان %1 به دلیل توقّف غیر منتظرهٔ خدمت وی‌پی‌ان شکست خورد."
+msgstr "اتّصال وی‌پی‌ان %1 به دلیل توقّف غیر منتظرهٔ خدمت وی‌پی‌ان شکست خورد."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
-"اتّصال وی‌پی‌ان %1 به دلیل برگرداندن پیکربندی نامعتبر از سوی خدمت وی‌پی‌ان "
-"شکست خورد."
+"اتّصال وی‌پی‌ان %1 به دلیل برگرداندن پیکربندی نامعتبر از سوی خدمت وی‌پی‌ان شکست "
+"خورد."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
@@ -222,17 +220,14 @@ msgstr "اتّصال وی‌پی‌ان %1 به دلیل تمام شدن مها�
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr ""
-"اتّصال وی‌پی‌ان %1 به دلیل شروع نشدن به موقع خدمت وی‌پی‌ان شکست خورد."
+msgstr "اتّصال وی‌پی‌ان %1 به دلیل شروع نشدن به موقع خدمت وی‌پی‌ان شکست خورد."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "اتّصال وی‌پی‌ان %1 به دلیل شکست در شروع خدمت وی‌پی‌ان شکست خورد."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr "اتّصال وی‌پی‌ان %1 به دلیل نبودن هیچ رمز وی‌پی‌ان معتبری شکست خورد."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -243,7 +238,7 @@ msgstr "اتّصال وی‌پی‌ان %1 به دلیل رمزهای نامعت
 msgid "VPN Connection Failed"
 msgstr "اتّصال وی‌پی‌ان شکست خورد."
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "تنظیمات سلّولی…"
 
