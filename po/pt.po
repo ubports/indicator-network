@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Dados móveis"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Ponto de acesso"
 
@@ -226,30 +226,26 @@ msgstr "A ligação VPN '%1' falhou porque o tempo para a conexão acabou."
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr ""
-"A ligação VPN '%1' falhou porque o serviço de VPN não iniciou a tempo."
+msgstr "A ligação VPN '%1' falhou porque o serviço de VPN não iniciou a tempo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "A ligação VPN '%1' falhou porque o serviço de VPN não iniciou."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "A ligação de VPN '%1' falhou porque não existiam segredos de VPN válidos."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr ""
-"A ligação de VPN '%1' falhou porque existem segredos de VPN inválidos."
+msgstr "A ligação de VPN '%1' falhou porque existem segredos de VPN inválidos."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
 msgstr "Ligação VPN falhou"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Definições de redes móveis…"
 

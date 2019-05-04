@@ -11,13 +11,13 @@ msgstr ""
 "PO-Revision-Date: 2016-03-12 00:21+0000\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 "X-Generator: Launchpad (build 18246)\n"
-"Language: ast\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -95,7 +95,7 @@ msgid "Cellular data"
 msgstr "Datos de celular"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Puntu d'accesu"
 
@@ -218,23 +218,19 @@ msgstr ""
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr ""
-"Falló la conexón VPN «%1» porque escosó'l tiempu pa tentar la conexón."
+msgstr "Falló la conexón VPN «%1» porque escosó'l tiempu pa tentar la conexón."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr ""
-"Falló la conexón VPN «%1» porque'l serviciu VPN nun s'anició a tiempu."
+msgstr "Falló la conexón VPN «%1» porque'l serviciu VPN nun s'anició a tiempu."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "Falló la conexón VPN «%1» porque'l serviciu VPN falló al aniciase."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr "Falló la conexón VPN «%1» porque nun hebo secretos VPN válidos"
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -245,7 +241,7 @@ msgstr "Falló la conexón VPN «%1» pola mor de servicios de VPN non válidos.
 msgid "VPN Connection Failed"
 msgstr "Falló la conexón VPN"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Axustes del teléfonu..."
 

@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Datu mugikorrak"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Wifigunea"
 
@@ -230,16 +230,13 @@ msgid ""
 msgstr "'%1' VPN konexioak huts egin du VPN zerbitzua ez delako garaiz hasi."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "'%1' VPN konexioak huts egin du VPN zerbitzua hasteak huts egin duelako."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
-msgstr ""
-"'%1' VPN konexioak huts egin du ez zegoelako baliozko VPN sekreturik."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
+msgstr "'%1' VPN konexioak huts egin du ez zegoelako baliozko VPN sekreturik."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
@@ -249,7 +246,7 @@ msgstr "'%1' VPN konexioak huts egin du VPN sekretu baliogabeengatik."
 msgid "VPN Connection Failed"
 msgstr "VPN konexioak huts egin du"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Datu mugikorren ezarpenak..."
 

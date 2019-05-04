@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "行動數據"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "熱點"
 
@@ -219,13 +219,11 @@ msgid ""
 msgstr "VPN 連接「%1」失敗，因為 VPN 服務未及時啟動。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "無法連接到 VPN 連接「%1」，因為 VPN 服務未啟動。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr "無法連接到 VPN 連接「%1」，因為沒有有效的 VPN 密碼。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -236,7 +234,7 @@ msgstr "由於 VPN 密碼無效，而無法連接到 VPN 連接「%1」。"
 msgid "VPN Connection Failed"
 msgstr "VPN 連線失敗"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "行動網路設定…"
 

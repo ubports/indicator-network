@@ -97,7 +97,7 @@ msgid "Cellular data"
 msgstr "Mobil data"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Adgangspunkt"
 
@@ -220,7 +220,8 @@ msgstr ""
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr "VPN forbindelsen '%1' mislykkedes fordi forbindelsesforsøget timede ud."
+msgstr ""
+"VPN forbindelsen '%1' mislykkedes fordi forbindelsesforsøget timede ud."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
@@ -229,13 +230,11 @@ msgstr ""
 "VPN forbindelsen '%1' mislykkedes fordi VPN servicen ikke startede i tide."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "VPN forbindelsen '%1' mislykkedes fordi VPN servicen ikke startede."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -246,7 +245,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr "VPN Forbindelsen Mislykkedes"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Mobiltelefonindstillinger…"
 

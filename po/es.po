@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Datos móviles"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Punto de acceso"
 
@@ -234,14 +234,12 @@ msgstr ""
 "Falló la conexión VPN «%1» porque el servicio de VPN no comenzó a tiempo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "Falló la conexión VPN «%1» porque el servicio de VPN no pudo iniciarse."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "Falló la conexión VPN «%1» porque no se hallaron secretos de la VPN válidos."
 
@@ -254,7 +252,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr "Falló la conexión VPN"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Configuración de datos móviles…"
 
