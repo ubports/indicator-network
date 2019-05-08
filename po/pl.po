@@ -97,7 +97,7 @@ msgid "Cellular data"
 msgstr "Dane sieci komórkowych"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Hotspot"
 
@@ -237,14 +237,12 @@ msgstr ""
 "na czas."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "Połączenie VPN '%1' nie powiodło się, ponieważ usługa VPN nie wystartowała."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "Wystąpił błąd w połączeniu VPN '%1' z powodu brak prawidłowych haseł VPN."
 
@@ -257,7 +255,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr "Połączenie VPN się nie powiodło"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Ustawienia komórkowe…"
 

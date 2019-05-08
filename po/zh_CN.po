@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "蜂窝数据"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "热点"
 
@@ -219,13 +219,11 @@ msgid ""
 msgstr "VPN连接'%1'因VPN服务未能及时启动而失败。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "VPN连接'%1'因VPN服务启动失败而失败。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr "VPN连接'%1'因不存在有效的VPN密码而失败。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -236,7 +234,7 @@ msgstr "VPN连接'%1'因VPN密钥无效而失败。"
 msgid "VPN Connection Failed"
 msgstr "VPN 连接失败"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "蜂窝移动网络设置…"
 

@@ -11,13 +11,13 @@ msgstr ""
 "PO-Revision-Date: 2016-02-15 17:40+0000\n"
 "Last-Translator: Gursharnjit_Singh <ubuntuser13@gmail.com>\n"
 "Language-Team: Punjabi <pa@li.org>\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 "X-Generator: Launchpad (build 18246)\n"
-"Language: pa\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -95,7 +95,7 @@ msgid "Cellular data"
 msgstr ""
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr ""
 
@@ -111,9 +111,7 @@ msgstr "ਇਹ ਤੁਹਾਡੀ ਆਖਰੀ ਕੋਸ਼ਿਸ਼ ਹੋਵੇਗ�
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
-msgstr ""
-"ਜੇਕਰ ਤੁਸੀਂ %{1} PIN ਗਲਤ ਦਾਖਲ ਕੀਤਾ ਤਾਂ ਤੁਹਾਨੂੰ ਲਾੱਕ ਖੋਲ੍ਹਣ ਲਈ PUK ਕੋਡ ਦੀ ਲੋੜ "
-"ਪਵੇਗੀ।"
+msgstr "ਜੇਕਰ ਤੁਸੀਂ %{1} PIN ਗਲਤ ਦਾਖਲ ਕੀਤਾ ਤਾਂ ਤੁਹਾਨੂੰ ਲਾੱਕ ਖੋਲ੍ਹਣ ਲਈ PUK ਕੋਡ ਦੀ ਲੋੜ ਪਵੇਗੀ।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
@@ -125,8 +123,7 @@ msgstr "ਸਿਮ ਕਾਰਡ ਦਾ ਲਾੱਕ ਖੋਲ੍ਹਣ ਲਈ ਆ
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr ""
-"ਹੋ ਸਕਦਾ ਤੁਹਾਨੂੰ PUK ਕੋਡ ਲਈ ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਪ੍ਰਦਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇ।"
+msgstr "ਹੋ ਸਕਦਾ ਤੁਹਾਨੂੰ PUK ਕੋਡ ਲਈ ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਪ੍ਰਦਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇ।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
@@ -138,8 +135,7 @@ msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
-"ਜੇਕਰ ਤੁਸੀਂ PUK ਕੋਡ ਗਲਤ ਦਾਖਲ ਕੀਤਾ, ਤੁਹਾਡਾ ਸਿਮ ਕਾਰਡ ਬਲਾਕ ਹੋ ਜਾਵੇਗਾ ਅਤੇ ਬਦਲਣਾ "
-"ਪਵੇਗਾ।"
+"ਜੇਕਰ ਤੁਸੀਂ PUK ਕੋਡ ਗਲਤ ਦਾਖਲ ਕੀਤਾ, ਤੁਹਾਡਾ ਸਿਮ ਕਾਰਡ ਬਲਾਕ ਹੋ ਜਾਵੇਗਾ ਅਤੇ ਬਦਲਣਾ ਪਵੇਗਾ।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
@@ -224,13 +220,11 @@ msgid ""
 msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -241,7 +235,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr ""
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "ਸੈਲੂਲਰ ਸੈਟਿੰਗ..."
 

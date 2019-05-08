@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "モバイルデータ"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "ホットスポット"
 
@@ -124,7 +124,9 @@ msgstr "SIMカードをアンロックするにはPUKコードを入力してく
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr "PUKコードを取得するには、ネットワークプロバイダに問い合わせる必要があるでしょう。"
+msgstr ""
+"PUKコードを取得するには、ネットワークプロバイダに問い合わせる必要があるでしょ"
+"う。"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
@@ -135,7 +137,9 @@ msgstr "PUKが違います。"
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
-msgstr "PUKコードを間違って入力すると、SIMカードはブロックされて交換が必要になります。"
+msgstr ""
+"PUKコードを間違って入力すると、SIMカードはブロックされて交換が必要になりま"
+"す。"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
@@ -216,16 +220,17 @@ msgstr "接続試行がタイムアウトしたため、VPN 接続 '%1' に失�
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr "VPN サービスが時間内に開始しなかったため、VPN 接続 '%1' に接続できませんでした。"
+msgstr ""
+"VPN サービスが時間内に開始しなかったため、VPN 接続 '%1' に接続できませんでし"
+"た。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
-msgstr "VPN サービスが始動しなかったため、VPN 接続 '%1' に接続できませんでした。"
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
+msgstr ""
+"VPN サービスが始動しなかったため、VPN 接続 '%1' に接続できませんでした。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr "有効なVPN鍵が存在しないため、VPN 接続 '%1' に接続できませんでした。"
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -236,7 +241,7 @@ msgstr "無効なVPN鍵により、VPN 接続 '%1' に接続できませんで�
 msgid "VPN Connection Failed"
 msgstr "VPN 接続に失敗しました"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "セルラー設定…"
 

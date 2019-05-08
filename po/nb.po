@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Mobildata"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Delt trådløst"
 
@@ -227,14 +227,12 @@ msgstr ""
 "VPN-tilkoblinga «%1» mislyktes fordi VPN-tjenesten ikke startet i tide."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "VPN-tilkoblinga «%1» mislyktes fordi VPN-tjenesten ikke klarte å starte."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "VPN-tilkoblinga «%1» mislyktes fordi det ikke finnes noen hemmelige VPN-"
 "nøkler."
@@ -248,7 +246,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr "VPN-tilkobling mislyktes"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Mobilnett-innstillinger …"
 

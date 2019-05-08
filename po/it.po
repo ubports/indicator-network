@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2019-01-06 00:00+0000\n"
-"Last-Translator: Ennio Lavagnini <ennio.lavagnini@protonmail.com>\n"
+"PO-Revision-Date: 2019-05-06 08:02+0000\n"
+"Last-Translator: Aurelio Cilia <spacedriver88@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "indicator-network/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
@@ -38,7 +38,7 @@ msgstr "Connetti"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "Cancella"
+msgstr "Annulla"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
@@ -79,7 +79,7 @@ msgstr "Segnale assente"
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Non connesso"
+msgstr "Offline"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Dati mobili"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Hotspot"
 
@@ -236,15 +236,13 @@ msgstr ""
 "avviato in tempo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "La connessione VPN \"%1\" non è riuscita in quanto il servizio VPN non si è "
 "avviato."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "La connessione VPN \"%1\" non è riuscita in quanto non c'erano segreti VPN "
 "validi."
@@ -259,7 +257,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr "Connessione VPN non riuscita"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Impostazioni rete mobile…"
 

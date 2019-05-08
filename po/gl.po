@@ -11,13 +11,13 @@ msgstr ""
 "PO-Revision-Date: 2016-02-15 17:40+0000\n"
 "Last-Translator: Marcos Lans <Unknown>\n"
 "Language-Team: Galician <gl@li.org>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 "X-Generator: Launchpad (build 18246)\n"
-"Language: gl\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -95,7 +95,7 @@ msgid "Cellular data"
 msgstr "Datos do móbil"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Punto de conexión"
 
@@ -125,8 +125,7 @@ msgstr "Introduza o código PUK para desbloquear a tarxeta SIM."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr ""
-"Quizais precise contactar co provedor de rede para obter o código PUK."
+msgstr "Quizais precise contactar co provedor de rede para obter o código PUK."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
@@ -234,15 +233,13 @@ msgstr ""
 "a tempo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
 "Produciuse un fallo na conexión VPN «%1» porque o servizo VPN non se iniciou "
 "correctamente."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "Produciuse un fallo na conexión VPN «%1» porque non houbo secretos correctos "
 "para a VPN."
@@ -257,7 +254,7 @@ msgstr ""
 msgid "VPN Connection Failed"
 msgstr "Fallou a conexión VPN"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Axustes do móbil..."
 

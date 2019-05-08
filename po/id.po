@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Data Seluler"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Hotspot"
 
@@ -225,13 +225,11 @@ msgid ""
 msgstr "Koneksi VPN '%1' gagal karena layanan VPN tak dimulai pada waktunya."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr "Koneksi VPN '%1' gagal karena layanan VPN gagal mulai."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr "Koneksi VPN '%1' gagal karena tidak ada rahasia VPN yang valid."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
@@ -242,7 +240,7 @@ msgstr "Koneksi VPN '%1' gagal karena rahasia VPN tak valid."
 msgid "VPN Connection Failed"
 msgstr "Sambungan VPN Gagal"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Pengaturan seluler…"
 

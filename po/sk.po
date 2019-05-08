@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: indicator-network\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
 "PO-Revision-Date: 2018-10-14 18:56+0000\n"
 "Last-Translator: P_E_T_O <peto.bena@gmail.com>\n"
@@ -96,7 +96,7 @@ msgid "Cellular data"
 msgstr "Mobilné dáta"
 
 #. TODO Move this into a new class
-#: ../src/indicator/factory.cpp:221
+#: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
 msgstr "Hotspot"
 
@@ -228,14 +228,11 @@ msgid ""
 msgstr "Pripojenie VPN '%1' zlyhalo, pretože sa služba VPN nezapla včas."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
-msgid ""
-"The VPN connection '%1' failed because the VPN service failed to start."
-msgstr ""
-"Pripojenie VPN '%1' zlyhalo, pretože sa službu VPN nepodarilo spustiť."
+msgid "The VPN connection '%1' failed because the VPN service failed to start."
+msgstr "Pripojenie VPN '%1' zlyhalo, pretože sa službu VPN nepodarilo spustiť."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
-msgid ""
-"The VPN connection '%1' failed because there were no valid VPN secrets."
+msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
 "Pripojenie VPN '%1' zlyhalo, pretože neboli nájdené žiadne platné VPN "
 "tajomstvá."
@@ -248,7 +245,7 @@ msgstr "Pripojenie VPN '%1' zlyhalo, kvôli neplatným VPN tajomstvám."
 msgid "VPN Connection Failed"
 msgstr "Zlyhanie VPN pripojenia"
 
-#: ../src/indicator/sections/wwan-section.cpp:102
+#: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
 msgstr "Mobilné nastavenia…"
 
