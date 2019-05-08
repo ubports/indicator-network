@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2019-05-03 21:03+0000\n"
+"PO-Revision-Date: 2019-05-08 18:54+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/indicator-network/zh_Hant/>\n"
@@ -58,7 +58,7 @@ msgstr "SIM 卡已鎖定"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr "已取消註冊"
+msgstr "未注冊"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
@@ -66,7 +66,7 @@ msgstr "未知"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr "遭拒"
+msgstr "已拒絕"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
