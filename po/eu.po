@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2018-11-25 00:00+0000\n"
+"PO-Revision-Date: 2019-07-06 22:48+0000\n"
 "Last-Translator: Aitzol Berasategi <aitzol@disroot.org>\n"
 "Language-Team: Basque <https://translate.ubports.com/projects/ubports/"
 "indicator-network/eu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
@@ -38,7 +38,7 @@ msgstr "Konektatu"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "Utzi"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
