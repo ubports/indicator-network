@@ -8,17 +8,19 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2016-02-15 17:40+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Lithuanian <lt@li.org>\n"
+"PO-Revision-Date: 2019-08-01 21:49+0000\n"
+"Last-Translator: Moo <moose@mail.ru>\n"
+"Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
+"indicator-network/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
@@ -144,7 +146,7 @@ msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr "Prašome susisiekti su savo tinklo tiekėju"
+msgstr "Prašome susisiekti su savo tinklo tiekėju."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
@@ -208,7 +210,7 @@ msgstr "VPN ryšys \"%1\" nepavyko, nes tinklo ryšys buvo pertrauktas."
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
-msgstr "VPN ryšys \"%1\" nepavyko, nes VPN tarnyba netikėtai buvo sustabdyta."
+msgstr "VPN ryšys \"%1\" nepavyko, nes VPN tarnyba buvo netikėtai sustabdyta."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
@@ -220,7 +222,7 @@ msgstr ""
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr "VPN ryšys \"%1\" nepavyko, nes baigėsi ryšiui skirtas laikas."
+msgstr "VPN ryšys \"%1\" nepavyko, nes baigėsi ryšio bandymui skirtas laikas."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
@@ -245,7 +247,7 @@ msgstr "VPN ryšys nepavyko"
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "Mobiliojo telefono nustatymai..."
+msgstr "Korinio tinklo nustatymai…"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
