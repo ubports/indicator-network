@@ -16,7 +16,7 @@ configure_file(
 
 add_custom_target(qmldoc
     ALL
-    COMMAND "${QDOC_EXECUTABLE}" "${CMAKE_CURRENT_BINARY_DIR}/connectivity-qml.qdocconf"
+    COMMAND "QT_SELECT=qt5" "${QDOC_EXECUTABLE}" "${CMAKE_CURRENT_BINARY_DIR}/connectivity-qml.qdocconf"
     WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}"
     COMMENT "Generating QML API documentation with qdoc" VERBATIM
     DEPENDS ${DOC_SOURCES}
@@ -47,5 +47,3 @@ install(
 )
 
 endif(QDOC_EXECUTABLE)
-
-
