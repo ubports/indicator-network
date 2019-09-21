@@ -348,7 +348,7 @@ public:
                 {Cipher::SEED_CBC, "SEED-CBC"},
                 {Cipher::AES_128_CBC_HMAC_SHA1, "AES-128-CBC-HMAC-SHA1"},
                 {Cipher::AES_256_CBC_HMAC_SHA1, "AES-256-CBC-HMAC-SHA1"},
-                {Cipher::NONE, "none"}
+                {Cipher::NO_CIPHER, "none"}
             };
             if (m_cipher != Cipher::DEFAULT_CIPHER)
             {
@@ -606,7 +606,7 @@ public:
             {"SEED-CBC", Cipher::SEED_CBC},
             {"AES-128-CBC-HMAC-SHA1", Cipher::AES_128_CBC_HMAC_SHA1},
             {"AES-256-CBC-HMAC-SHA1", Cipher::AES_256_CBC_HMAC_SHA1},
-            {"none", Cipher::NONE}
+            {"none", Cipher::NO_CIPHER}
         };
 
         auto it = data.constFind("cipher");

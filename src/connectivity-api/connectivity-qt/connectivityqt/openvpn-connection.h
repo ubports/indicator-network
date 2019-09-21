@@ -67,14 +67,14 @@ public:
         SEED_CBC,
         AES_128_CBC_HMAC_SHA1,
         AES_256_CBC_HMAC_SHA1,
-        NONE
+        NO_CIPHER
     };
 
     Q_ENUMS(Auth)
     enum Auth
     {
         DEFAULT_AUTH,
-        NONE,
+        NO_AUTH,
         RSA_MD4,
         MD5,
         SHA1,
