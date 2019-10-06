@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2019-10-05 16:53+0000\n"
+"PO-Revision-Date: 2019-10-07 12:53+0000\n"
 "Last-Translator: Sami Törmänen <tormanen.sami@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "indicator-network/fi/>\n"
@@ -79,7 +79,7 @@ msgstr "Ei signaalia"
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Ei verkossa"
+msgstr "Ei paikalla"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
