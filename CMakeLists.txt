@@ -26,8 +26,13 @@ include(EnableCoverageReport)
 include(GNUInstallDirs)
 include(UseGSettings)
 
+set(PROJECT_VERSION "16.10.0")
+set(PACKAGE ${CMAKE_PROJECT_NAME})
 set(GETTEXT_PACKAGE indicator-network)
-set(LOCALE_DIR "${CMAKE_INSTALL_FULL_DATADIR}/locale")
+add_definitions (
+    -DGETTEXT_PACKAGE="${GETTEXT_PACKAGE}"
+    -DGNOMELOCALEDIR="${CMAKE_INSTALL_FULL_LOCALEDIR}"
+)
 
 # Workaround for libexecdir on debian
 if (EXISTS "/etc/debian_version")
