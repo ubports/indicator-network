@@ -8,32 +8,33 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2016-03-12 00:21+0000\n"
+"PO-Revision-Date: 2019-10-30 02:36+0000\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <ast@li.org>\n"
+"Language-Team: Asturian <https://translate.ubports.com/projects/ubports/"
+"indicator-network/ast/>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr "Coneutase a «%1»"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
-msgstr "WPA"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:68
 msgid "WEP"
-msgstr "WEP"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:74
 msgid "Connect"
-msgstr "Coneutase"
+msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
@@ -41,223 +42,216 @@ msgstr "Encaboxar"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr "Otra rede…"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr "Ensin SIM"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr "Fallu de SIM"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr "SIM bloquiada"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr "Ensin rexistrar"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
-msgstr "Desconocíu"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr "Refugáu"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr "Guetando"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr "Ensin señal"
+msgstr ""
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Fuera de llinia"
+msgstr ""
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr ""
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
 msgid "Flight Mode"
-msgstr "Mou avión"
+msgstr ""
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr "Datos de celular"
+msgstr ""
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr "Puntu d'accesu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr "Perdón, PIN %{1} incorreutu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr "Esti sedra'l to caberu intentu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
 msgstr ""
-"Si s'introduz incorreutamente'l PIN %{1} , vas riquir el to códigu PUK pa "
-"desbloquialu."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr "Sentímoslo, agora %{1} bloquióse"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr "Por favor, introduz el to códigu PUK pa desbloquiar la tarxeta SIM."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr "Seique precises contautar col to fornidor de rede pol códigu PUK."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr "Perdón, PUK incorreutu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
-"Si'l códigu PUK s'inxerta incorreutamente, la to tarxeta SIM bloquiaráse y "
-"vas necesitar un troquéu."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr "Por favor, contauta col to fornidor de rede."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr "Agora la to tarxeta SIM ta bloquiada dafechu y necesita un troquéu."
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr "Por favor, contauta col to fornidor de serviciu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr "Perdón, PIN incorreutu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr "Perdón, PUK incorreutu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr "Introduz el PIN %{1}"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr "Introduz el códigu PUK"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr "Introduz el códigu PUK pa %{1}"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] "Queda 1 intentu"
-msgstr[1] "Queden %d intentos"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr "Inxerta'l PIN %{0} nuevu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr "Confirma'l PIN %{1} nuevu"
+msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr "Los códigos PIN nun concasen."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr "Falló la conexón VPN «%1»."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
-msgstr "Falló la conexón VPN «%1» porque s'interrumpió la conexón de rede."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
-"Falló la conexón VPN «%1» porque se paró de sutaque la conexón de rede."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
-"Falló la conexón VPN «%1» porque'l serviciu de VPN devolvió una "
-"configuración non válida."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr "Falló la conexón VPN «%1» porque escosó'l tiempu pa tentar la conexón."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr "Falló la conexón VPN «%1» porque'l serviciu VPN nun s'anició a tiempu."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
-msgstr "Falló la conexón VPN «%1» porque'l serviciu VPN falló al aniciase."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
-msgstr "Falló la conexón VPN «%1» porque nun hebo secretos VPN válidos"
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr "Falló la conexón VPN «%1» pola mor de servicios de VPN non válidos."
+msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr "Falló la conexón VPN"
+msgstr ""
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "Axustes del teléfonu..."
+msgstr ""
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr "Axustes VPN..."
+msgstr ""
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
-msgstr "Axustes Wi-Fi..."
+msgstr ""
 
 #. TRANSLATORS: this is the indicator title shown on the top header of the indicator area
 #: ../src/indicator/root-state.cpp:306
 msgid "Network"
-msgstr "Rede"
+msgstr ""
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr "Conexón VPN %1"
+msgstr ""
