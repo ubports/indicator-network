@@ -106,7 +106,7 @@ public:
         updateActiveAccessPoint(m_link->activeAccessPoint());
         connect(m_link.get(), &wifi::WifiLink::activeAccessPointUpdated, this, &Private::updateActiveAccessPoint);
 
-        m_otherNetwork = std::make_shared<TextItem>(_("Other network…"), "wifi", "othernetwork");
+        m_otherNetwork = std::make_shared<TextItem>(_("Other network..."), "wifi", "othernetwork");
         //m_actionGroupMerger->add(*m_otherNetwork);
 
         m_rootMerger->append(m_topMenu);

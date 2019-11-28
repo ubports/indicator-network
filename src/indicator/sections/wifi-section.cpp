@@ -62,7 +62,7 @@ public:
             m_settingsMenu->append(m_switch->menuItem());
         }
 
-        m_openWifiSettings = std::make_shared<TextItem>(_("Wi-Fi settings…"), "wifi", "settings");
+        m_openWifiSettings = std::make_shared<TextItem>(_("Wi-Fi settings..."), "wifi", "settings");
         connect(m_openWifiSettings.get(), &TextItem::activated, this, &Private::openWiFiSettings);
 
         m_actionGroupMerger->add(m_openWifiSettings->actionGroup());

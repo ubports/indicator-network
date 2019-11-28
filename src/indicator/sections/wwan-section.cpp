@@ -99,7 +99,7 @@ WwanSection::Private::Private(Manager::Ptr modemManager, SwitchItem::Ptr mobileD
     m_topMenu = make_shared<Menu>();
     m_topMenu->append(m_topItem);
 
-    m_openCellularSettings = make_shared<TextItem>(_("Cellular settings…"), "cellular", "settings");
+    m_openCellularSettings = make_shared<TextItem>(_("Cellular settings..."), "cellular", "settings");
     connect(m_openCellularSettings.get(), &TextItem::activated, this, &Private::openCellularSettings);
     m_actionGroupMerger->add(m_openCellularSettings->actionGroup());
 

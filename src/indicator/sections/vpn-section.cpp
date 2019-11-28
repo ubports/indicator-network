@@ -137,7 +137,7 @@ VpnSection::VpnSection(nmofono::vpn::VpnManager::SPtr vpnManager)
     d->m_menuMerger = make_shared<MenuMerger>();
 
     d->m_vpnSettingsMenu = make_shared<Menu>();
-    d->m_openVpnSettings = make_shared<TextItem>(_("VPN settings…"), "vpn", "settings");
+    d->m_openVpnSettings = make_shared<TextItem>(_("VPN settings..."), "vpn", "settings");
 
     d->m_connectionsItem = MenuItem::newSection(d->m_menuMerger);
     d->m_connectionsMenu = make_shared<Menu>();
