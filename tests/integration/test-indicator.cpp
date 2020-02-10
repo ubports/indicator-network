@@ -2034,6 +2034,12 @@ TEST_F(TestIndicator, CellDataEnabled)
     setModemProperty(secondModem, "Online", true);
     setConnectionManagerProperty(secondModem, "Powered", false);
 
+    // Set first SIM as the active data connection
+    auto connectivity = newConnectivity();
+    auto modems = getSortedModems(*connectivity);
+    auto sim1 = getModemSim(*modems, 0);
+    connectivity->setSimForMobileData(sim1);
+
     ASSERT_NO_THROW(startIndicator());
 
     // Should be connected to HSPA
