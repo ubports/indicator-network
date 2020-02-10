@@ -53,7 +53,7 @@ QString Icons::bearerIcon(wwan::Modem::Bearer bearer)
     case wwan::Modem::Bearer::hspa_plus:
         return "network-cellular-hspa-plus";
     case wwan::Modem::Bearer::lte:
-        return "network-cellular-lte";
+        return "network-cellular-4g";
     }
     // shouldn't be reached
     return QString();
