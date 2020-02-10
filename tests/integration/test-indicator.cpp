@@ -2078,9 +2078,9 @@ TEST_F(TestIndicator, CellDataEnabled)
             ).match());
 
     // Set second SIM as the active data connection
-    auto connectivity = newConnectivity();
-    auto modems = getSortedModems(*connectivity);
-    auto sim2 = getModemSim(*modems, 1);
+    connectivity = newConnectivity();
+    modems = getSortedModems(*connectivity);
+    sim2 = getModemSim(*modems, 1);
     connectivity->setSimForMobileData(sim2);
 
     // Now we should have a 3G icon
