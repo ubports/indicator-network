@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-03-07 11:22+0000\n"
+"PO-Revision-Date: 2020-03-14 09:22+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "indicator-network/gl/>\n"
@@ -126,7 +126,7 @@ msgstr "Introduza o código PUK pra desbloquear a tarxeta SIM."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr "Quizais precise contactar co provedor de rede para obter o código PUK."
+msgstr "Quizais precise contactar co provedor de rede pra obter o código PUK."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
