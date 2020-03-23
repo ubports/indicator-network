@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-03-14 09:22+0000\n"
+"PO-Revision-Date: 2020-03-24 09:22+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "indicator-network/gl/>\n"
@@ -205,8 +205,7 @@ msgstr "A conexión VPN '%1' fallou porque a conexión de rede foi interrompida.
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
-msgstr ""
-"A conexión VPN '%1' fallou porque o servizo VPN detívose inesperadamente."
+msgstr "A conexión VPN '%1' fallou porque o servizo VPN parou inesperadamente."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
