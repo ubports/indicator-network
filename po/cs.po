@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-03-03 12:22+0000\n"
+"PO-Revision-Date: 2020-04-01 12:22+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "indicator-network/cs/>\n"
@@ -74,12 +74,12 @@ msgstr "Hledání"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr "Žádný signál"
+msgstr "Bez signálu"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Nepřipojen"
+msgstr "Nepřipojeno"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
@@ -112,7 +112,7 @@ msgstr "Toto je váš poslední pokus."
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
-msgstr "Pokud %{1} PIN bude zadán chybně, bude požadovaný kód PUK."
+msgstr "Pokud %{1} PIN bude zadán chybně, bude požadován kód PUK."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
@@ -138,8 +138,8 @@ msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
-"Pokud bude chybně zadán PUK kód, bude vaše SIM karta zablokována a bude "
-"třeba ji vyměnit."
+"Pokud bude chybně zadán PUK kód, vaše SIM karta se zablokuje a bude třeba ji "
+"vyměnit."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
@@ -147,7 +147,7 @@ msgstr "Obraťte se na vámi využívaného operátora."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr "Vaše SIM karta byla nadobro zablokována a potřebuje výměnu."
+msgstr "Vaše SIM karta se nadobro zablokovala a potřebuje výměnu."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
@@ -220,22 +220,25 @@ msgstr ""
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr "VPN připojení '%1' selhalo, protože pokus o připojení vypršel."
+msgstr ""
+"VPN připojení „%1“ se nezdařilo, protože byl překročen časový limit pokusu o "
+"připojení."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr "VPN připojení '%1' selhalo, protože se služba VPN nezapla včas."
+msgstr "VPN připojení „%1“ se nezdařilo, protože se služba VPN nezapnula včas."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
-msgstr "VPN připojení '%1' selhalo, protože službu VPN se nezdařilo spustit."
+msgstr ""
+"VPN připojení„'%1“ se nezdařilo, protože službu VPN se nezdařilo spustit."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
-"VPN připojení '%1' selhalo, protože nebyla nalezena žádná platná VPN důvěrná "
-"data."
+"VPN připojení „%1“ se nezdařilo, protože nebyla nalezena žádná platná VPN "
+"důvěrná data."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
@@ -243,11 +246,11 @@ msgstr "VPN připojení '%1' selhalo, pro neplatná VPN důvěrná data."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr "VPN připojení selhalo"
+msgstr "VPN připojení se nezdařilo"
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "Mobilní nastavení…"
+msgstr "Nastavení pro mobilní síť…"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
