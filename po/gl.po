@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-03-24 09:22+0000\n"
+"PO-Revision-Date: 2020-04-08 09:23+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "indicator-network/gl/>\n"
@@ -98,7 +98,7 @@ msgstr "Datos da rede móbil"
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr "Punto de acceso Wifi"
+msgstr "Punto de acceso"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
@@ -113,7 +113,7 @@ msgstr "Este será o último intento."
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
 msgstr ""
-"Se o PIN da %{1} introducido é incorrecto precisará o código PUK pra "
+"Se o PIN da %{1} introducido é incorrecto precisará o código PUK para "
 "debloqueala."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
@@ -122,11 +122,11 @@ msgstr "Desculpe, agora a %{1} está bloqueada."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr "Introduza o código PUK pra desbloquear a tarxeta SIM."
+msgstr "Introduza o código PUK para desbloquear a tarxeta SIM."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr "Quizais precise contactar co provedor de rede pra obter o código PUK."
+msgstr "Quizais precise contactar co provedor de rede para obter o código PUK."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
@@ -182,7 +182,7 @@ msgstr[1] "Quédanlle %d intentos"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr "Introduza un PIN novo pra a %{1}"
+msgstr "Introduza un PIN novo para a %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
@@ -235,7 +235,7 @@ msgstr ""
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
-"A conexión VPN '%1' fallou porque non había secretos correctos pra a VPN."
+"A conexión VPN '%1' fallou porque non había secretos correctos para a VPN."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
