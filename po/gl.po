@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-04-08 09:23+0000\n"
+"PO-Revision-Date: 2020-04-12 09:23+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "indicator-network/gl/>\n"
@@ -102,12 +102,12 @@ msgstr "Punto de acceso"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr "Desculpe, o PIN da %{1}  é incorrecto."
+msgstr "Desculpe, o PIN da %{1} é incorrecto."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr "Este será o último intento."
+msgstr "Este será o seu último intento."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
@@ -143,7 +143,7 @@ msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr "Por favor, contacte co provedor de rede."
+msgstr "Contacte co provedor de rede."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
@@ -151,7 +151,7 @@ msgstr "A tarxeta SIM quedou permanentemente bloqueada e ten que substituíla."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr "Por favor, contacte co provedor de servizo."
+msgstr "Contacte co provedor de servizo."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
@@ -194,52 +194,51 @@ msgstr "Os códigos PIN non coinciden."
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr "A conexión VPN '%1' fallou."
+msgstr "A conexión VPN «%1» fallou."
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
-msgstr "A conexión VPN '%1' fallou porque a conexión de rede foi interrompida."
+msgstr "A conexión VPN «%1» fallou porque a conexión de rede foi interrompida."
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
-msgstr "A conexión VPN '%1' fallou porque o servizo VPN parou inesperadamente."
+msgstr "A conexión VPN «%1» fallou porque o servizo VPN parou inesperadamente."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
-"A conexión VPN '%1' fallou porque o servizo VPN devolveu unha configuración "
+"A conexión VPN «%1» fallou porque o servizo VPN devolveu unha configuración "
 "non válida."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
 msgstr ""
-"A conexión VPN '%1' fallou porque o intento de conexión excedeu o límite de "
+"A conexión VPN «%1» fallou porque o intento de conexión excedeu o límite de "
 "tempo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr "A conexión VPN '%1' fallou porque o servizo VPN non arrincou a tempo."
+msgstr "A conexión VPN «%1» fallou porque o servizo VPN non iniciou en tempo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
-msgstr ""
-"A conexión VPN '%1' fallou porque o servizo VPN non arrincou correctamente."
+msgstr "A conexión VPN «%1» fallou porque o servizo VPN non se puido iniciar."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
-"A conexión VPN '%1' fallou porque non había secretos correctos para a VPN."
+"A conexión VPN «%1» fallou porque non había secretos correctos para a VPN."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr "A conexión VPN '%1' fallou por culpa de secretos de VPN incorrectos."
+msgstr "A conexión VPN «%1» fallou por culpa de secretos de VPN incorrectos."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
