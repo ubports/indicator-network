@@ -8,24 +8,25 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2016-02-15 17:40+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Luxembourgish <lb@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2020-03-18 23:22+0000\n"
+"Last-Translator: cflep <cflep219@hotmail.com>\n"
+"Language-Team: Luxembourgish <https://translate.ubports.com/projects/ubports/"
+"indicator-network/lb/>\n"
+"Language: lb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr ""
+msgstr "Mat \"%1\" verbannen"
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
 #: ../src/agent/SecretRequest.cpp:68
 msgid "WEP"
@@ -41,182 +42,193 @@ msgstr "Ofbriechen"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr ""
+msgstr "Anert Netzwierk…"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr ""
+msgstr "Keng SIM-Kaart"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr ""
+msgstr "SIM-Kaartefeeler"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr ""
+msgstr "SIM gespaart"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr ""
+msgstr "Net registréiert"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
-msgstr ""
+msgstr "Onbekannt"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr ""
+msgstr "Refuséiert"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr ""
+msgstr "Am gaangen ze sichen"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr ""
+msgstr "Keen Empfang"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
 msgid "Flight Mode"
-msgstr ""
+msgstr "Fligermodus"
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr ""
+msgstr "Mobillfunkdaten"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr ""
+msgstr "Hotspot"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr ""
+msgstr "Entschëllegt, PIN-Code %{1} ass net korrekt."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr ""
+msgstr "Dëst ass Äere leschte Versuch."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
-msgstr ""
+msgstr "Wann de %{1} PIN falsch agi gëtt bräucht Däer de PUK fir ze entspären."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr ""
+msgstr "Äer %{1} ass elo blockéiert."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr ""
+msgstr "Gidd w.e.g. Äere PUK a fir d'SIM-Kaart ze entspären."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr ""
+msgstr "Däer musst eventuell fir Äere PUK Äere Provider kontaktéieren."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr ""
+msgstr "Entschëllegt, falsche PUK."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
+"Wann de PUK falsch agi gëtt, gëtt Äer SIM-Kaart gespaart a muss ersat ginn."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr ""
+msgstr "Kontaktéiert w.e.g. Äere Provider."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr ""
+msgstr "Äer SIM-Kaart ass elo permanent blockéiert a muss ersat ginn."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr ""
+msgstr "Kontaktéiert w.e.g. Äere Provider."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr ""
+msgstr "Entschëllegt, falsch PIN"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr ""
+msgstr "Entschëllegt, falsche PUK"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr ""
+msgstr "%{1} PIN aginn"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr ""
+msgstr "W.e.g. de PUK-Code aginn"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr ""
+msgstr "PUK fir %{1} aginn"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Nach 1 Versuch"
+msgstr[1] "Nach %d Versich"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr ""
+msgstr "Neie %{1} PIN aginn"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr ""
+msgstr "Neie %{1} PIN bestätegen"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr ""
+msgstr "PIN-Codë passen net zesummen."
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr ""
+msgstr "D'VPN-Verbindung \"%1\" ass feelgeschlo."
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
 msgstr ""
+"D'VPN-Verbindung \"%1\" ass feelgeschlo, well d'Netzwierkverbindung "
+"ënnerbrach gouf."
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
+"D'VPN-Verbindung \"%1\" ass feelgeschlo, well de VPN-Déngscht onerwaart "
+"gestoppt huet."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
+"D'VPN-Verbindung \"%1\" ass feelgeschlo, well de VPN-Déngscht eng feelerhaft "
+"Konfiguratioun liwwert."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
 msgstr ""
+"D'VPN-Verbindung \"%1\" ass feelgeschlo, well de Verbindungsversuch ze laang "
+"gedauert huet."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
 msgstr ""
+"D'VPN-Verbindung \"%1\" ass feelgeschlo, well de VPN-Déngscht net mat Zäite "
+"gestart ass."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."

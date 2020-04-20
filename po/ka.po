@@ -8,249 +8,260 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2016-02-15 17:40+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Georgian <ka@li.org>\n"
+"PO-Revision-Date: 2020-04-12 09:23+0000\n"
+"Last-Translator: Iuri Jikidze <ijiki16@freeuni.edu.ge>\n"
+"Language-Team: Georgian <https://translate.ubports.com/projects/ubports/"
+"indicator-network/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr ""
+msgstr "დაუკავშირდით “%1”"
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
 #: ../src/agent/SecretRequest.cpp:68
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../src/agent/SecretRequest.cpp:74
 msgid "Connect"
-msgstr ""
+msgstr "დაკავშირება"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr ""
+msgstr "გაუქმება"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr ""
+msgstr "სხვა ქსელი…"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr ""
+msgstr "SIM კარტა ვერ მოინახა"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr ""
+msgstr "SIM კარტის შეცდომა"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr ""
+msgstr "SIM კარტა დაბლოკილია"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr ""
+msgstr "დაურეგისტრირებელი"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
-msgstr ""
+msgstr "უცნობი"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr ""
+msgstr "უარყოფილი"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr ""
+msgstr "ძებნა"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr ""
+msgstr "სიგნალი არ არის"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr ""
+msgstr "ხაზგარეშე"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
 msgid "Flight Mode"
-msgstr ""
+msgstr "ფრენის რეჟიმი"
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr ""
+msgstr "ფიჭური მონაცემები"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr ""
+msgstr "წვდომის წერტილი"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr ""
+msgstr "უკაცრავად, არასწორი PIN კოდია % {1}."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr ""
+msgstr "ეს იქნება თქვენი ბოლო მცდელობა."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
-msgstr ""
+msgstr "თუ შეყვანინი %{1} PIN არასწორია თქვენ დაგჭირდებათ PUK კოდი განსაბლოკად."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr ""
+msgstr "უკაცრავად, თქვენი % {1} ახლა დაბლოკილია."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr ""
+msgstr "გთხოვთ შეიყვანოთ PUK კოდი SIM კარტის განსაბლოკად."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
 msgstr ""
+"თქვენ შეიძლება დაგჭირდეთ თქვენ მობილურ პრივაიდერთან დაკავშირევა PUK კოდის "
+"გასაგებად."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr ""
+msgstr "სამწუხაროდ, არასწორი PUK კოდია."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
+"თუ შეყვანილი PUK კოდი არასწორია თქვენ შეიძლება დაგჭირდეთ SIM კარტის გამოცვლა."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr ""
+msgstr "გთხოვთ დაუკავშირდით თქვენს ქსელის პროვაიდერს."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr ""
+msgstr "თქვენი SIM კარტა ახლა სამუდამოდ დაბლოკილია და საჭიროა მისი გამოცვლა."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr ""
+msgstr "გთხოვთ დაუკავშირდით თქვენს სერვის პროვაიდერს."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr ""
+msgstr "უკაცრავად, PIN კოდი არასწორია"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr ""
+msgstr "უკაცრავად, PUK კოდი არასწორია"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr ""
+msgstr "შეიყვანეთ %{1} PIN კოდი"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr ""
+msgstr "შეიყვანეთ PUK კოდი"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr ""
+msgstr "შეიყვანეთ PUK კოდი %{1}-სთვის"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "დარჩა %d მცდელობა"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr ""
+msgstr "შეიყვანეთ ახლაი PIN კოდი: %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr ""
+msgstr "დაადასტურეთ ახალი PIN კოდი: %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr ""
+msgstr "PIN კოდები არ ემთხვევა ერთმანეთს."
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr ""
+msgstr "'%1' VPN თან დავშრება ვერ მოხერხდა."
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
-msgstr ""
+msgstr "'%1' VPN თან დაკავშირება ვერ მოხერხდა, რადგან ქსელთან კავშირი გაწყდა."
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
+"'%1' VPN თან დავკავშირება ვერ მოხრხდა, რადგან VPN სერვისი უნებლიერ გაჩერდა."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
+"'%1' VPN თან დაკავშირება ვერ მოხერხდა, რადგან VPN მა დააბრუნა არასწორი "
+"კონფიგურაცია."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
 msgstr ""
+"'%1' VPN თან დაკავშირება ვერ მოხერხდა, რადგან დაკავშირების დრო ამოიწურა."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
 msgstr ""
+"'%1' VPN თან დაკავშირება ვერ მოხერხდა, რადგან VPN სერვისი არ დაიწყო დროულად."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
-msgstr ""
+msgstr "'%1' VPN თან დაკავშირება ვერ მოხერხდა, რადგან VPN სერვისი ვერ დაიწყო."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
+"'%1' VPN თან დაკავშირება ვერ მოხერხდა, რადგან ვერ მოინახა ვალიდური VPN "
+"საიდუმლოები."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
 msgstr ""
+"'%1' VPN თან დაკავშირება ვერ მოხერხდა, რადგან  VPN საიდუმლოები არავალიდურია."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr ""
+msgstr "VPN თან დაკავშირება ვერ მოხერხდა"
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr ""
+msgstr "ფიჭური პარამეტრები…"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr ""
+msgstr "VPN პარამეტრები…"
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
-msgstr ""
+msgstr "Wi-Fi პარამეტრები…"
 
 #. TRANSLATORS: this is the indicator title shown on the top header of the indicator area
 #: ../src/indicator/root-state.cpp:306
 msgid "Network"
-msgstr ""
+msgstr "ქსელი"
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr ""
+msgstr "VPN დაუკავშირდა %1"
