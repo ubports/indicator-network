@@ -140,10 +140,10 @@ public:
         /// @todo hook up with system-settings to allow changing the identifier.
         ///       for now just provide the defaults
         auto path = m_ofonoModem->modemPath();
-        if (path == "/ril_0") {
+        if (path.endsWith("_0")) {
             setSimIdentifier("SIM 1");
             m_index = 1;
-        } else if (path == "/ril_1") {
+        } else if (path.endsWith("_1")) {
             setSimIdentifier("SIM 2");
             m_index = 2;
         } else {
