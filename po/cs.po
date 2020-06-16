@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-04-01 12:22+0000\n"
+"PO-Revision-Date: 2020-05-20 20:24+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "indicator-network/cs/>\n"
@@ -46,11 +46,11 @@ msgstr "Ostatní sítě…"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr "Žádná SIM"
+msgstr "Žádná SIM karta"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr "Chyba SIM"
+msgstr "Chyba SIM karty"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
@@ -98,7 +98,7 @@ msgstr "Mobilní data"
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr "Hot spot"
+msgstr "Hotspot"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
@@ -208,14 +208,16 @@ msgstr ""
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
-"VPN připojení „%1“ selhalo, protože VPN služba byla neočekávaně ukončena."
+"VPN připojení „%1“ se nezdařilo, protože VPN služba byla neočekávaně "
+"ukončena."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
-"VPN připojení '%1' selhalo, protože VPN služba vrátila neplatné nastavení."
+"VPN připojení „%1“ se nezdařilo, protože VPN služba vrátila neplatné "
+"nastavení."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
@@ -242,7 +244,7 @@ msgstr ""
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr "VPN připojení '%1' selhalo, pro neplatná VPN důvěrná data."
+msgstr "VPN připojení „%1“ se nezdařilo, kvůli neplatným VPN důvěrným datům."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
