@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-07-04 13:24+0000\n"
+"PO-Revision-Date: 2020-07-07 16:32+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "indicator-network/nl/>\n"
@@ -38,7 +38,7 @@ msgstr "Verbinden"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Afbreken"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
