@@ -248,6 +248,10 @@ public Q_SLOTS:
             connect(m_networkRegistration.get(),
                     &QOfonoNetworkRegistration::strengthChanged, this,
                     &Private::update);
+
+            connect(m_networkRegistration.get(),
+                    &QOfonoNetworkRegistration::technologyChanged, this,
+                    &Private::update);
         }
 
         update();
@@ -387,18 +391,6 @@ public Q_SLOTS:
             m_simStatusSet = false;
         }
 
-        if (m_networkRegistration)
-        {
-            setOperatorName(m_networkRegistration->name());
-            setStatus(str2status(m_networkRegistration->status()));
-            setStrength((int8_t)m_networkRegistration->strength());
-        }
-        else
-        {
-            setOperatorName("");
-            setStatus(Modem::ModemStatus::unknown);
-            setStrength(-1);
-        }
 
         if (m_connectionManager)
         {
@@ -409,6 +401,26 @@ public Q_SLOTS:
         {
             setDataEnabled(false);
             setBearer(Modem::Bearer::notAvailable);
+        }
+
+        if (m_networkRegistration)
+        {
+            setOperatorName(m_networkRegistration->name());
+            setStatus(str2status(m_networkRegistration->status()));
+            setStrength((int8_t)m_networkRegistration->strength());
+
+            // If the bearer couldn't be identified earlier then try again
+            // using the org.ofono.NetworkRegistration interface
+            if (m_bearer == Modem::Bearer::notAvailable)
+            {
+                setBearer(str2technology(m_networkRegistration->technology()));
+            }
+        }
+        else
+        {
+            setOperatorName("");
+            setStatus(Modem::ModemStatus::unknown);
+            setStrength(-1);
         }
 
         m_updatedTimer.start();
