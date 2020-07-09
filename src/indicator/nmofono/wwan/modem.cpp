@@ -61,7 +61,7 @@ static Modem::Bearer str2technology(const QString& str)
 {
     if (str.isEmpty() || str == "none")
         return Modem::Bearer::notAvailable;
-    if (str == "gprs")
+    if (str == "gprs" || str == "gsm")
         return Modem::Bearer::gprs;
     if (str == "edge")
         return Modem::Bearer::edge;
