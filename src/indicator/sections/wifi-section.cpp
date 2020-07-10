@@ -55,22 +55,19 @@ public:
         m_menu = std::make_shared<Menu>();
         m_settingsMenu = std::make_shared<Menu>();
 
-        /// @todo don't now really care about actully being able to detach the whole
-        ///       wifi chipset. on touch devices we always have wifi.
-        if (m_manager->hasWifi()) {
-            m_menu->append(m_switch->menuItem());
-            m_settingsMenu->append(m_switch->menuItem());
-        }
-
         m_openWifiSettings = std::make_shared<TextItem>(_("Wi-Fi settings…"), "wifi", "settings");
         connect(m_openWifiSettings.get(), &TextItem::activated, this, &Private::openWiFiSettings);
 
         m_actionGroupMerger->add(m_openWifiSettings->actionGroup());
         m_menu->append(m_openWifiSettings->menuItem());
 
+        showOrHideWifiSwitch();
+
         // We have this last because the menu item insertion location
         // depends on the presence of the WiFi settings item.
         updateLinks();
+
+        connect(m_manager.get(), &Manager::hasWifiUpdated, this, &Private::showOrHideWifiSwitch);
         connect(m_manager.get(), &Manager::linksUpdated, this, &Private::updateLinks);
     }
 
@@ -108,6 +105,19 @@ public Q_SLOTS:
             break;
         }
     }
+
+private:
+    void showOrHideWifiSwitch()
+    {
+        if (m_manager->hasWifi()) {
+            m_menu->insert(m_switch->menuItem(), m_menu->begin());
+            m_settingsMenu->insert(m_switch->menuItem(), m_settingsMenu->begin());
+        } else {
+            m_menu->removeAll(m_switch->menuItem());
+            m_settingsMenu->removeAll(m_switch->menuItem());
+        }
+    }
+
 };
 
 WifiSection::WifiSection(Manager::Ptr manager, SwitchItem::Ptr wifiSwitch)
