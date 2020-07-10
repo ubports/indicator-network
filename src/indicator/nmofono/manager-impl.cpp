@@ -287,7 +287,7 @@ public Q_SLOTS:
     {
         if (m_killSwitch->state() != KillSwitch::State::not_available)
         {
-            m_hasWifi = true;
+            bool hasWifi = true;
             if (m_killSwitch->state() == KillSwitch::State::unblocked)
             {
                 m_wifiEnabled = true;
@@ -296,23 +296,29 @@ public Q_SLOTS:
             {
                 m_wifiEnabled = false;
             }
-            Q_EMIT p.hasWifiUpdated(m_hasWifi);
+
+            if (hasWifi != m_hasWifi) {
+                m_hasWifi = hasWifi;
+                Q_EMIT p.hasWifiUpdated(m_hasWifi);
+            }
             Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
             return;
         }
 
         // ok, killswitch not supported, but we still might have wifi devices
-        bool haswifi = false;
+        bool hasWifi = false;
         for (auto link : m_nmLinks)
         {
             if (link->type() == Link::Type::wifi)
             {
-                haswifi = true;
+                hasWifi = true;
             }
         }
-        m_hasWifi = haswifi;
+        if (hasWifi != m_hasWifi) {
+            m_hasWifi = hasWifi;
+            Q_EMIT p.hasWifiUpdated(m_hasWifi);
+        }
         m_wifiEnabled = haswifi && (nm && nm->wirelessEnabled());
-        Q_EMIT p.hasWifiUpdated(m_hasWifi);
         Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
     }
 
