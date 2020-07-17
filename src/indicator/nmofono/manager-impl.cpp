@@ -311,7 +311,7 @@ public Q_SLOTS:
             }
         }
         m_hasWifi = haswifi;
-        m_wifiEnabled = haswifi;
+        m_wifiEnabled = haswifi && (nm && nm->wirelessEnabled());
         Q_EMIT p.hasWifiUpdated(m_hasWifi);
         Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
     }
@@ -583,15 +583,17 @@ ManagerImpl::wifiEnabled() const
 void
 ManagerImpl::setWifiEnabled(bool enabled)
 {
-    qDebug() << "Setting WiFi enabled =" << enabled;
+    qDebug() << "Setting WiFi enabled =" << enabled << " m_hasWifi =" << d->m_hasWifi
+        << " m_wifiEnabled =" << d->m_wifiEnabled;
 
-    if (!d->m_hasWifi)
+    if (!d->m_hasWifi && !enabled)
     {
         return;
     }
 
     if (d->m_wifiEnabled == enabled)
     {
+        d->nm->setWirelessEnabled(enabled);
         return;
     }
 
