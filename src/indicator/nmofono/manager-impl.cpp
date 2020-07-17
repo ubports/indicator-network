@@ -585,7 +585,7 @@ ManagerImpl::setWifiEnabled(bool enabled)
 {
     qDebug() << "Setting WiFi enabled =" << enabled;
 
-    if (!d->m_hasWifi)
+    if (!d->m_hasWifi && !enabled)
     {
         return;
     }
