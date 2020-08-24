@@ -117,6 +117,9 @@ private Q_SLOTS:
     void device_added(const QDBusObjectPath &path);
     void device_removed(const QDBusObjectPath &path);
     void nm_properties_changed(const QVariantMap &properties);
+
+private:
+    void setMtkWifiEnabled(bool);
 };
 
 }
