@@ -657,6 +657,8 @@ void HotspotManager::setEnabled(bool value)
 
         d->setDisconnectWifi(true);
 
+        setMtkTetheringEnabled(true);
+
         // We use Hybris to load the new device firmware
         d->createApDevice();
 
@@ -682,6 +684,8 @@ void HotspotManager::setEnabled(bool value)
     {
         // Disabling the hotspot.
         d->disable();
+
+        setMtkTetheringEnabled(false);
 
         d->setDisconnectWifi(false);
     }
@@ -755,6 +759,26 @@ void HotspotManager::setAuth(const QString& value) {
 bool HotspotManager::disconnectWifi() const
 {
     return d->m_disconnectWifi;
+}
+
+void HotspotManager::setMtkTetheringEnabled(bool value)
+{
+    // Switch MediaTek /dev/wmtWifi adapter mode between AP/STA when hotspot
+    // enabled state is changed.
+    QFile wmtWifi_file("/dev/wmtWifi");
+    if (wmtWifi_file.exists())
+    {
+        if (wmtWifi_file.open(QIODevice::WriteOnly)) {
+            // Configure new adapter mode
+            const char newAdapterMode = (value ? 'A' : 'S');
+            qDebug() << "setMtkTetheringEnabled() -> Opened the wmtWifi device for writing, configuring new mode =" << newAdapterMode;
+            if (!wmtWifi_file.putChar(newAdapterMode))
+                qWarning() << "setMtkTetheringEnabled() -> An error occured while changing the wmtWifi adapter operating mode!";
+            wmtWifi_file.close();
+            QThread::msleep(1000); // wait 1s for the interface(s) to become available again
+        } else
+            qWarning() << "setMtkTetheringEnabled() -> Couldn't open /dev/wmtWifi for writing! (insufficient permissions?)";
+    }
 }
 
 }
