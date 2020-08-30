@@ -278,6 +278,54 @@ QString VpnManager::addConnection(VpnConnection::Type type)
     return uuid;
 }
 
+QString VpnManager::importConnection(VpnConnection::Type type, QString filepath)
+{
+    QStringList arguments;
+
+    arguments << "connection" << "import" << "type";
+    
+    switch (type)
+    {
+        case VpnConnection::Type::openvpn:
+            arguments << "openvpn";
+            break;
+        case VpnConnection::Type::pptp:
+            arguments << "pptp";
+            break;
+    };
+
+    arguments << "file" << filepath;
+
+    qDebug() << "Import VPN start nmcli " << arguments;
+    QProcess nmcli;
+    nmcli.start("nmcli", arguments);
+
+    if (!nmcli.waitForFinished()) {
+        qDebug() << "Import VPN connection nmcli error=" << nmcli.errorString();
+        throw domain_error(qPrintable("nmcli failed: " + nmcli.errorString()));
+    }
+
+    QString outputErr = nmcli.readAllStandardError();
+    if (!outputErr.isEmpty()) {
+        throw domain_error(qPrintable("nmcli failed: " + outputErr));
+    }
+    
+    QString output = nmcli.readAllStandardOutput();
+    qDebug() << "Import VPN connection nmcli logs=" << output;
+    if (output.isEmpty()) {
+        throw domain_error(qPrintable("nmcli failed: no log"));
+    } else {
+        // Take just the first line
+        QStringList res = output.split("(");
+        qDebug() << "Import VPN connection res=" << res;
+        if (res.isEmpty()) {
+            throw domain_error(qPrintable("nmcli failed: no res"));
+        }
+        return res.last().split(")").first();
+    }
+    throw domain_error(qPrintable("nmcli failed!"));
+}
+
 }
 }
 

@@ -77,6 +77,8 @@ public:
 public Q_SLOTS:
     void add(VpnConnection::Type type);
 
+    void importFile(VpnConnection::Type type, const QString &filepath);
+
     void remove(VpnConnection* connection);
 
 Q_SIGNALS:
