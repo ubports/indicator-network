@@ -311,7 +311,7 @@ public Q_SLOTS:
             }
         }
         m_hasWifi = haswifi;
-        m_wifiEnabled = haswifi;
+        m_wifiEnabled = haswifi && (nm && nm->wirelessEnabled());
         Q_EMIT p.hasWifiUpdated(m_hasWifi);
         Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
     }
@@ -601,6 +601,8 @@ ManagerImpl::setWifiEnabled(bool enabled)
     {
         d->m_hotspotManager->setEnabled(false);
     }
+
+    setMtkWifiEnabled(enabled);
 
     d->m_killSwitch->setBlock(!enabled);
     d->nm->setWirelessEnabled(enabled);
@@ -974,6 +976,26 @@ QList<wwan::Sim::Ptr>
 ManagerImpl::sims() const
 {
     return d->m_sims;
+}
+
+void
+ManagerImpl::setMtkWifiEnabled(bool enabled)
+{
+    // Enable/disable MediaTek wmtWifi adapter for power savings when WLAN is
+    // toggled on/off.
+    QFile wmtWifi_file("/dev/wmtWifi");
+    if (wmtWifi_file.exists())
+    {
+        if (wmtWifi_file.open(QIODevice::WriteOnly)) {
+            // Configure new adapter enabled state
+            const char newAdapterEnabledState = (enabled ? '1' : '0');
+            qDebug() << "setMtkWifiEnabled() -> Opened the wmtWifi device for writing, configuring new state =" << newAdapterEnabledState;
+            if (!wmtWifi_file.putChar(newAdapterEnabledState))
+                qWarning() << "setMtkWifiEnabled() -> An error occured while changing the wmtWifi adapter enabled state!";
+            wmtWifi_file.close();
+        } else
+            qWarning() << "setMtkWifiEnabled() -> Couldn't open /dev/wmtWifi for writing! (insufficient permissions?)";
+    }
 }
 
 

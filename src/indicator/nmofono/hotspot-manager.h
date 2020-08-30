@@ -193,6 +193,8 @@ public Q_SLOTS:
 private:
     class Priv;
     std::shared_ptr<Priv> d;
+
+    void setMtkTetheringEnabled(bool);
 };
 
 }
