@@ -42,6 +42,12 @@
             <arg type="o" direction="out" name="path"/>
         </method>
 
+        <method name="ImportVpnConnection">
+            <arg type="i" direction="in" name="type"/>
+            <arg type="s" direction="in" name="filepath"/>
+            <arg type="o" direction="out" name="path"/>
+        </method>
+
         <method name="RemoveVpnConnection">
             <arg type="o" direction="in" name="path"/>
         </method>

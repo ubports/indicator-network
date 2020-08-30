@@ -142,6 +142,8 @@ protected Q_SLOTS:
 
     QDBusObjectPath AddVpnConnection(int type);
 
+    QDBusObjectPath ImportVpnConnection(int type, const QString &filepath);
+
     void RemoveVpnConnection(const QDBusObjectPath &path);
 
     void setMobileDataEnabled(bool enabled);

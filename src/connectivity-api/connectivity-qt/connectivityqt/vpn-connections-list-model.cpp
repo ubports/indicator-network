@@ -327,6 +327,13 @@ void VpnConnectionsListModel::add(VpnConnection::Type type)
     connect(watcher, &QDBusPendingCallWatcher::finished, d.get(), &Priv::addConnectionFinished);
 }
 
+void VpnConnectionsListModel::importFile(VpnConnection::Type type, const QString &filepath)
+{
+    auto reply = d->m_writeInterface->ImportVpnConnection(static_cast<int>(type), filepath);
+    auto watcher(new QDBusPendingCallWatcher(reply, this));
+    connect(watcher, &QDBusPendingCallWatcher::finished, d.get(), &Priv::addConnectionFinished);
+}
+
 void VpnConnectionsListModel::remove(VpnConnection* connection)
 {
     d->remove(*connection);

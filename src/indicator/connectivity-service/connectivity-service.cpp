@@ -591,6 +591,38 @@ QDBusObjectPath PrivateService::AddVpnConnection(int type)
     return QDBusObjectPath();
 }
 
+QDBusObjectPath PrivateService::ImportVpnConnection(int type, const QString &filepath)
+{
+    setDelayedReply(true);
+
+    if (type < 0 || type > 1)
+    {
+        p.d->m_connection.send(
+                message().createErrorReply(QDBusError::InvalidArgs,
+                                           "Invalid VPN type"));
+    }
+    else
+    {
+        try
+        {
+            qDebug() << "Import VPN connection, type=" << type << " and filepath=" << filepath;
+            QString uuid = p.d->m_vpnManager->importConnection(
+                    static_cast<VpnConnection::Type>(type), filepath);
+            qDebug() << "Import VPN connection OK uuid=" << uuid;
+            p.d->m_addQueue[uuid] = message();
+        }
+        catch (domain_error& e)
+        {
+            qDebug() << "Import VPN connection KO error=" << e.what();
+            p.d->m_connection.send(
+                    message().createErrorReply(QDBusError::InvalidArgs,
+                                               e.what()));
+        }
+    }
+
+    return QDBusObjectPath();
+}
+
 void PrivateService::RemoveVpnConnection(const QDBusObjectPath &path)
 {
     DBusVpnConnection::SPtr vpnConnection;

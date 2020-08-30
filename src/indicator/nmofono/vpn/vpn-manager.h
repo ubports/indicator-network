@@ -47,6 +47,8 @@ public:
 
     QString addConnection(VpnConnection::Type type);
 
+    QString importConnection(VpnConnection::Type type, QString filepath);
+
 Q_SIGNALS:
     void connectionsChanged();
 
