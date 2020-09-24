@@ -321,7 +321,7 @@ QString VpnManager::importConnection(VpnConnection::Type type, QString filepath)
         if (res.isEmpty()) {
             throw domain_error(qPrintable("nmcli failed: no res"));
         }
-        return res.last().append(res.last().split(")").first());
+        return res.last().split(")").first();
     }
     throw domain_error(qPrintable("nmcli failed!"));
 }
