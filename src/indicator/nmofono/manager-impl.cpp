@@ -318,7 +318,7 @@ public Q_SLOTS:
             m_hasWifi = hasWifi;
             Q_EMIT p.hasWifiUpdated(m_hasWifi);
         }
-        m_wifiEnabled = haswifi && (nm && nm->wirelessEnabled());
+        m_wifiEnabled = hasWifi && (nm && nm->wirelessEnabled());
         Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
     }
 
