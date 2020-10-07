@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2018-08-10 21:33+0000\n"
-"Last-Translator: Eran <etherpulse@gmail.com>\n"
+"PO-Revision-Date: 2020-09-05 14:38+0000\n"
+"Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "indicator-network/he/>\n"
 "Language: he\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
@@ -38,7 +38,7 @@ msgstr "התחברות"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "ביטול"
+msgstr "בטול"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
@@ -79,7 +79,7 @@ msgstr "אין אות"
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "מנותק"
+msgstr "לא מקוון"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
@@ -102,7 +102,7 @@ msgstr "נקודת גישה אלחוטית"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr ""
+msgstr "מצטערים, מספר PIN שגוי %{1}."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
@@ -113,10 +113,11 @@ msgstr "ניסיון זה יהיה הניסיון האחרון."
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
 msgstr ""
+"אם קוד ה- PIN של %{1} הוזן באופן שגוי, תידרש לפתוח בעזרת קוד ה- PUK שלך."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr ""
+msgstr "מצטערים, %{1} שלך חסום כעת."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
@@ -124,7 +125,7 @@ msgstr "אנא הכניסו את קוד ה - PUK על מנת לפתוח את כ�
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr ""
+msgstr "ייתכן שיהיה עליך ליצור קשר עם ספק הרשת שלך לקבלת קוד PUK."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
@@ -135,31 +136,31 @@ msgstr "לצערנו, ה- PUK אינו נכון."
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
-msgstr ""
+msgstr "אם קוד PUK הוזן בצורה שגויה, כרטיס ה- SIM שלך ייחסם וזקוק להחלפה."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr ""
+msgstr "אנא פנה לספק הרשת שלך."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr ""
+msgstr "כעת כרטיס ה- SIM שלך חסום לצמיתות וזקוק להחלפה."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr ""
+msgstr "אנא פנה לספק השירות שלך."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr ""
+msgstr "מצטערים, PIN שגוי"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr ""
+msgstr "סליחה, PUK שגוי"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr ""
+msgstr "הזן מספר PIN %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
@@ -167,22 +168,22 @@ msgstr "נא להזין קוד PUK"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr ""
+msgstr "הזן קוד PUK עבור %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "נותר ניסיון אחד"
+msgstr[1] "נותרו %d ניסיונות"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr ""
+msgstr "הזן מספר PIN חדש של %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr ""
+msgstr "אשר את מספר ה- PIN החדש %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
@@ -190,58 +191,58 @@ msgstr "הקודים של ה־PIN שהזנת אינם תואמים."
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל."
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל מכיוון שחיבור הרשת הופרע."
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל מכיוון ששירות ה- VPN נעצר באופן בלתי צפוי."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל מכיוון ששירות ה- VPN החזיר תצורה לא חוקית."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל מכיוון שתם הזמן הקצוב לניסיון החיבור."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל מכיוון ששירות ה- VPN לא התחיל בזמן."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל מכיוון ששירות ה- VPN נכשל."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל מכיוון שלא היו סודות VPN תקפים."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr ""
+msgstr "חיבור ה- VPN '%1' נכשל בגלל סודות VPN לא חוקיים."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr ""
+msgstr "חיבור ה- VPN נכשל"
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "הגדרות סלולריות…"
+msgstr "הגדרות הסלולר …"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr ""
+msgstr "הגדרות VPN …"
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
@@ -254,4 +255,4 @@ msgstr "רשת"
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr ""
+msgstr "חיבור VPN %1"
