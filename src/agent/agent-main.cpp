@@ -32,8 +32,6 @@
 
 #include <glib.h>
 
-#include <config.h>
-
 using namespace std;
 
 int

@@ -16,7 +16,6 @@
  * Author: Pete Woods <pete.woods@canonical.com>
  */
 
-#include <config.h>
 #include <Localisation.h>
 #include <SecretAgent.h>
 #include <DBusTypes.h>

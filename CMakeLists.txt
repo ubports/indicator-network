@@ -31,7 +31,7 @@ set(PACKAGE ${CMAKE_PROJECT_NAME})
 set(GETTEXT_PACKAGE indicator-network)
 add_definitions (
     -DGETTEXT_PACKAGE="${GETTEXT_PACKAGE}"
-    -DGNOMELOCALEDIR="${CMAKE_INSTALL_FULL_LOCALEDIR}"
+    -DLOCALE_DIR="${CMAKE_INSTALL_FULL_LOCALEDIR}"
 )
 
 # Workaround for libexecdir on debian
@@ -101,11 +101,6 @@ if(CMAKE_COMPILER_IS_GNUCC)
   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${COMMON_FLAGS}")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMMON_FLAGS}")
 endif()
-
-configure_file(
-  "config.h.in"
-  "config.h"
-)
 
 set(CONNECTIVITY_QT_VERSION_MAJOR 1)
 set(CONNECTIVITY_QT_VERSION_MINOR 0)

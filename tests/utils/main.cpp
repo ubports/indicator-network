@@ -17,8 +17,6 @@
  *     Pete Woods <pete.woods@canonical.com>
  */
 
-#include <config.h>
-
 #include <QCoreApplication>
 #include <QTimer>
 #include <gtest/gtest.h>

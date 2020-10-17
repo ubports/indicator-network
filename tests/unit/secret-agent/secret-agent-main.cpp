@@ -16,9 +16,7 @@
  * Author: Pete Woods <pete.woods@canonical.com>
  */
 
-#include <config.h>
 #include <libintl.h>
-#include <config.h>
 #include <dbus-types.h>
 #include <notify-cpp/notification-manager.h>
 #include <agent/KeyringCredentialStore.h>

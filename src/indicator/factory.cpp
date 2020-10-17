@@ -17,7 +17,6 @@
  *     Pete Woods <pete.woods@canonical.com>
  */
 
-#include <config.h>
 #include <factory.h>
 
 #include <util/localisation.h>
