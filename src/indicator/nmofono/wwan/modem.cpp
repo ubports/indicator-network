@@ -105,6 +105,7 @@ public:
 
     QString m_operatorName;
     Modem::ModemStatus m_status;
+    bool m_isManaged = true;
     int8_t m_strength;
     Modem::Bearer m_bearer;
 
@@ -527,6 +528,17 @@ public Q_SLOTS:
         Q_EMIT p.modemStatusUpdated(m_status);
     }
 
+    void setIsManaged(bool managed)
+    {
+        if (m_isManaged = managed)
+        {
+            return;
+        }
+
+        m_isManaged = managed;
+        Q_EMIT p.isManagedChanged(m_isManaged);
+    }
+
     void setStrength(int8_t strength)
     {
         if (m_strength == strength)
@@ -783,6 +795,12 @@ Modem::status() const
     }
 
     return status;
+}
+
+bool
+Modem::isManaged() const
+{
+    return d->m_isManaged;
 }
 
 Link::Id

@@ -144,6 +144,8 @@ public:
 
     Status status() const override;
 
+    bool isManaged() const override;
+
     Id id() const override;
 
     bool isReadyToUnlock() const;
@@ -162,6 +164,8 @@ Q_SIGNALS:
     void operatorNameUpdated(const QString &);
 
     void modemStatusUpdated(ModemStatus);
+
+    void isManagedChanged(bool);
 
     void strengthUpdated(std::int8_t);
 

@@ -102,6 +102,8 @@ public:
     Q_PROPERTY(nmofono::Link::Status status READ status NOTIFY statusUpdated)
     virtual Status status() const = 0;
 
+    virtual bool isManaged() const = 0;
+
     /// @private
     typedef unsigned int Id;
 
@@ -115,6 +117,8 @@ Q_SIGNALS:
     void characteristicsUpdated(std::uint32_t);
 
     void statusUpdated(Status);
+
+    void isManagedChanged(bool);
 
 protected:
     /// @private
