@@ -61,6 +61,7 @@ public:
 
     uint32_t m_characteristics = Link::Characteristics::empty;
     Link::Status m_status = Status::disabled;
+    bool m_isManaged = true;
     QSet<AccessPointImpl::Ptr> m_rawAccessPoints;
     QSet<AccessPoint::Ptr> m_groupedAccessPoints;
     AccessPoint::Ptr m_activeAccessPoint;
@@ -91,9 +92,26 @@ public:
         Q_EMIT p.statusUpdated(m_status);
     }
 
+    void setIsManaged(bool value)
+    {
+        if (m_isManaged == value)
+        {
+            return;
+        }
+
+        m_isManaged = value;
+        Q_EMIT p.isManagedChanged(m_isManaged);
+    }
+
     void updateDeviceState(uint new_state)
     {
         m_lastState = new_state;
+
+        if (new_state == NM_DEVICE_STATE_UNMANAGED) {
+            // Mark unmanaged adapters as such.
+            setIsManaged(false);
+        }
+
         switch (new_state){
         case NM_DEVICE_STATE_DISCONNECTED:
         case NM_DEVICE_STATE_DEACTIVATING:
@@ -405,6 +423,12 @@ Link::Status
 WifiLinkImpl::status() const
 {
     return d->m_status;
+}
+
+bool
+WifiLinkImpl::isManaged() const
+{
+    return d->m_isManaged;
 }
 
 Link::Id

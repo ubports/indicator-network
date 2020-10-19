@@ -49,6 +49,7 @@ public:
 
     std::uint32_t characteristics() const override;
     Status status() const override;
+    bool isManaged() const override;
 
     QSet<AccessPoint::Ptr> accessPoints() const override;
     void connect_to(AccessPoint::Ptr accessPoint) override;

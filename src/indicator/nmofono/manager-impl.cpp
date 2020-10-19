@@ -880,7 +880,7 @@ ManagerImpl::wifiLinks() const
     QSet<wifi::WifiLink::Ptr> result;
     for(auto link: d->m_nmLinks)
     {
-        if (link->type() == Link::Type::wifi)
+        if (link->type() == Link::Type::wifi && link->isManaged())
         {
             result.insert(dynamic_pointer_cast<wifi::WifiLink>(link));
         }
