@@ -19,7 +19,6 @@
 #pragma once
 
 #include <libintl.h>
-#include <config.h>
 
 inline char* _(const char *__msgid) {
     return dgettext(GETTEXT_PACKAGE, __msgid);
