@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-11-06 07:43+0000\n"
+"PO-Revision-Date: 2020-11-21 16:43+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "indicator-network/ar/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr "الاتصال بـ “%1”"
+msgstr "اتصل بـ “%1”"
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
@@ -47,15 +47,15 @@ msgstr "شبكات أخرى..."
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr "لا توجد شريحة SIM"
+msgstr "لا توجد شريحة هاتف"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr "خطأ في شريحة SIM"
+msgstr "خطأ في شريحة الهاتف"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr "بطاقة SIM مقفلة"
+msgstr "شريحة الهاتف موصدة"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
@@ -71,7 +71,7 @@ msgstr "مرفوض"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr "البحث"
+msgstr "يبحث"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
@@ -93,8 +93,9 @@ msgid "Flight Mode"
 msgstr "وضع الطيران"
 
 #: ../src/indicator/factory.cpp:208
+#, fuzzy
 msgid "Cellular data"
-msgstr ""
+msgstr "بيانات شبكة الاتصال الخلوي"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
