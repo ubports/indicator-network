@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2018-08-09 09:40+0000\n"
-"Last-Translator: ierihon <idekovets@mail.ru>\n"
+"PO-Revision-Date: 2020-11-26 15:47+0000\n"
+"Last-Translator: Zmicer <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
 "indicator-network/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.20\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr "Падлучэньня да “%1”"
+msgstr "Падлучыцца да “%1”"
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
@@ -80,7 +80,7 @@ msgstr "Адсутнічае сігнал"
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Адсутнічае"
+msgstr "Па-за сецівам"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
@@ -99,11 +99,11 @@ msgstr "Мабільная перадача даных"
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr "Кропка доступу"
+msgstr "Пункт доступу"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr "Калі ласка, увядзіце слушны %{1} PIN-код."
+msgstr "Выбачайце, хібны %{1} PIN-код."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
@@ -114,34 +114,34 @@ msgstr "Гэта будзе ваша апошняя спроба."
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
 msgstr ""
-"Калі PIN-код %{1} будзе уведзены памылкова, для разблакавання вам "
-"спатрэбіцца PUK-код."
+"Калі будзе уведзены хібны PIN-код %{1}, для разблакавання вам спатрэбіцца "
+"PUK-код."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr "Нажаль твой %{1} заблакаваны."
+msgstr "Ваша картка %{1} заблакаваная."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr "Увядзі PUK-код, каб разблакаваць SIM-картку."
+msgstr "Увядзіце PUK-код, каб разблакаваць SIM-картку."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
 msgstr ""
-"Для атрымання PUK кода магчыма спатрэбіцца звярнуцца да аператару сувязі."
+"Каб атрымаць PUK-код, вам можа спатрэбіцца звярнуцца да аператару сувязі."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr "Няслушны PUK-код."
+msgstr "Няправільны PUK-код."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
-"У выпадку ўвода няслушнага PUK-коду, SIM-картка будзе заблакавана і "
-"спатрэбіцца яе замена, вось."
+"У выпадку ўводу няслушнага PUK-кода SIM-картка будзе заблакаваная, "
+"спатрэбіцца яе замяніць."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
@@ -149,8 +149,7 @@ msgstr "Калі ласка, зверніся да аператару сувяз
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr ""
-"Нажаль, твая SIM-картка незваротна заблакавана і неабходна яе замена, шкадую."
+msgstr "Нажаль, вашая SIM-картка заблакаваная. Патрэбна яе замяніць."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
@@ -166,15 +165,15 @@ msgstr "Няправільны PUK-код"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr "Увядзі %{1} PIN-код"
+msgstr "Увядзіце %{1} PIN-код"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr "Увядзі  PUK-код"
+msgstr "Увядзіце PUK-код"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr "Увядзі PUK код для %{1}"
+msgstr "Увядзіце PUK-код для %{1}"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
@@ -186,75 +185,71 @@ msgstr[2] "засталося %d спробаў"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr "Увядзі новы %{1} PIN-код"
+msgstr "Увядзіце новы %{1} PIN-код"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr "Пацвердзі новы %{1} PIN-код"
+msgstr "Пацвердзіце новы %{1} PIN-код"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr "Коды ня супадаюць."
+msgstr "Коды не супадаюць."
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr "Злучэньне VPN '%1' скончылася памылкаю."
+msgstr "Памылка VPN-злучэння \"%1\"."
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
-msgstr ""
-"Злучэньне з VPN '%1' скончылася памылкаю праз адсутнасць сігналу з сеткай."
+msgstr "Злучэнне з VPN \"%1\" скончылася памылкай праз страту сігналу."
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
-"Злучэньне VPNз '%1' скончылася памылкаю з-за нечаканай супынкі VPN сервісаў."
+"Злучэнне з VPN \"%1\" скончылася памылкай праз нечаканае спыненне службы VPN."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
-"VPN-падлучэньня з '% 1' не атрымалася, так як сервіс даслаў памылковыя "
-"канфігурацыя."
+"Злучэнне з VPN \"%1\" скончылася памылкай праз атрыманы хібны файл "
+"канфігурацыі."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr ""
-"Злучэньня VPN '%1' скончылася памылкаю, так як скончыўся час падлучэньня."
+msgstr "Злучэнне з VPN \"%1\" скончылася памылкай праз скончаны час чакання."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
 msgstr ""
-"VPN-падлучэньня '%1' не атрымалася, так як VPN сэрвіс не адказаў своечасова."
+"Злучэнне з VPN \"%1\" скончылася памылкай праз несвоечасовы адказ службы."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
-msgstr ""
-"VPN-падлучэньня '% 1' скончылася памылкаю, з-за адсутнасьць немагчымасьці "
-"запуску VPN службы."
+msgstr "Злучэнне з VPN \"%1\" скончылася памылкай праз памылку службы."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
-msgstr "VPN '%1' не атрымалася злучыцца, бо не было ніякай працуючай VPN."
+msgstr ""
+"Злучэнне з VPN \"%1\" скончылася памылкай праз адсутнасць прыдатнай службы."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr ""
-"VPN злучэньня '%1' скончылася памылкаю з-за памылковых альбо нядзеючых VPN."
+msgstr "Злучэнне з VPN \"%1\" скончылася памылкай праз хібныя даныя службы."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr "Памылка злучэньня з VPN"
+msgstr "Памылка VPN-злучэння"
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "Налады сеткі…"
+msgstr "Налады мабільнай сеткі…"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
@@ -271,4 +266,4 @@ msgstr "Сетка"
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr "VPN злучэньне %1"
+msgstr "VPN-злучэнне %1"
