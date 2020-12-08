@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-11-21 16:43+0000\n"
+"PO-Revision-Date: 2020-12-07 18:28+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "indicator-network/ar/>\n"
@@ -93,9 +93,8 @@ msgid "Flight Mode"
 msgstr "وضع الطيران"
 
 #: ../src/indicator/factory.cpp:208
-#, fuzzy
 msgid "Cellular data"
-msgstr "بيانات شبكة الاتصال الخلوي"
+msgstr "البيانات الخلوية"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
@@ -122,22 +121,22 @@ msgstr ""
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr ""
+msgstr "أدخل رمز PUK لفك حجب الشريحة الهاتف."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr ""
+msgstr "قد تحتاج للاتصال بموفر الشبكة للحصول على رمز PUK."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr ""
+msgstr "نعتذر، رمز PUK خاطئ."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
-msgstr ""
+msgstr "إذا أدخل رمز PUK خاطئ، ستحجب شريحة الهاتف وسيتوجب عليك استبدالها."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
@@ -145,7 +144,7 @@ msgstr "برجاء الاتصال بمزود خدمة الشبكة الخاص ب
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr ""
+msgstr "شريحة الهاتف محجوبة وتحتاج للاستبدالها."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
