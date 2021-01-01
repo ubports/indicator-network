@@ -8,249 +8,272 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2016-02-15 17:40+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2020-12-31 16:31+0000\n"
+"Last-Translator: GK <miscgk@pm.me>\n"
+"Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
+"indicator-network/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr ""
+msgstr "“%1” ற்கு இணைக்க"
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
-msgstr ""
+msgstr "WPA பாதுகாக்கபட்ட அறுகலை"
 
 #: ../src/agent/SecretRequest.cpp:68
 msgid "WEP"
-msgstr ""
+msgstr "WEP பாதுகாக்கபட்ட அறுகலை"
 
 #: ../src/agent/SecretRequest.cpp:74
 msgid "Connect"
-msgstr ""
+msgstr "இணைக"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்துசெய்"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr ""
+msgstr "மற்ற இணைப்புக்கள்…"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr ""
+msgstr "செறிவட்டை காணப்படவில்லை"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr ""
+msgstr "செறிவட்டையில் பிழை"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr ""
+msgstr "செறிவட்டை பூட்டப்பட்டுள்ளது"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr ""
+msgstr "பதிவு செய்யப்படவில்லை"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
-msgstr ""
+msgstr "தெரியாதவை"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr ""
+msgstr "மறுக்கப்பட்டது"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr ""
+msgstr "தேடப்படுகிறது"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr ""
+msgstr "சமிக்கை கிடைக்கவில்லை"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr ""
+msgstr "அகல்நிலை"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr ""
+msgstr "அருகலை Wi-Fi"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
 msgid "Flight Mode"
-msgstr ""
+msgstr "விமான முறை"
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr ""
+msgstr "நகர்ப்பேசித் தரவுன"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr ""
+msgstr "பகிரலை"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr ""
+msgstr "மன்னிக்கவும், தவறான %{1} குறியீட்டு எண்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr ""
+msgstr "இதுவே உங்களின் இறுதி முயற்சிக்கான வாய்ப்பு."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
 msgstr ""
+"தவறான %{1} குறியீட்டு எண் உள்ளிடப்பட்டால், நீங்கள் PUK குறியீடை உள்ளிட "
+"நேரிடும்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr ""
+msgstr "மன்னிக்கவும், தங்களின் %{1} தடைசெய்யப்பட்டுவிட்டது."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr ""
+msgstr "செறிவட்டையின் தடையை நீக்க PUK குறியீடை உள்ளிடவும்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
 msgstr ""
+"PUK குறியீடைப்பெற, தங்களின் நகர்பேசி இணைப்பு வழங்குனரை தொடர்பு கொள்ளவும்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr ""
+msgstr "மன்னிக்கவும், தவறான PUK குறியீடு."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
+"தவறான PUK குறியீட்டு எண் உள்ளிடப்பட்டால், தங்களின் செறிவட்டையை மாற்றப்பட "
+"நேரிடும்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr ""
+msgstr "தங்களின் நகர்பேசி இணைப்பு வழங்குனரைத் தொடர்புகொள்ளவும்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
 msgstr ""
+"தங்களின் செறிவட்டை நிறந்தரமாக தடுக்கப்பட்டுவிட்டது. செறிவட்டை மாற்றப்பட "
+"வேண்டும்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr ""
+msgstr "தங்களின் சேவை வழங்குனரை தொடர்பு கொள்ளவும்."
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr ""
+msgstr "மன்னிக்கவும், தவறான குறியீட்டு எண்"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr ""
+msgstr "மன்னிக்கவும், தவறான PUK"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr ""
+msgstr "%{1} குறியீட்டு எண்ணை உள்ளிடவும்"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr ""
+msgstr "PUK குறியீட்டு எண்ணை உள்ளிடவும்"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr ""
+msgstr "%{1} ற்கான PUK குறியீட்டு எண்ணை உள்ளிடவும்"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 வாய்பு மீதமுள்ளது"
+msgstr[1] "%d வாய்புகள் மீதமுள்ளது"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr ""
+msgstr "புதிய %{1} குறியீட்டு எண்ணை உள்ளிடவும்"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr ""
+msgstr "புதிய %{1} குறியீட்டு எண்ணை உறுதிப்படுத்துக"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr ""
+msgstr "குறியீட்டு எண் உள்ளீடுகள் வேறுபடுகின்றன."
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr ""
+msgstr "'%1' மெய்நிகர் பிணைய இணைப்பானது தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
 msgstr ""
+"இணைப்பில் ஏற்பட்ட தடங்கள்களால், '%1' மெய்நிகர் தனியார் பிணைய இணைப்பானது "
+"தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
+"மெய்நிகர் தனியார் பிணையச் சேவை எதிர்பாரமல் நிறுத்தப்பட்தால், '%1' இணைப்பு "
+"தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
+"மெய்நிகர் தனியார் பிணையச் சேவை தவறான அமைப்புகளைத் தந்ததால், '%1' இணைப்பு "
+"தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
 msgstr ""
+"எதிர்பார்த்த நேரத்தில் இணைப்பு ஏற்படாததால் '%1' மெய்நிகர் தனியார் பிணைய "
+"இணைப்பு தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
 msgstr ""
+"மெய்நிகர் தனியார் பிணையச் சேவை சரியான நேரத்தில் துவங்காததால் '%1' இணைப்பு "
+"தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
 msgstr ""
+"மெய்நிகர் தனியார் பிணையச் சேவையின் துவக்கம் தோல்வியுற்றதால், '%1' இணைப்பு "
+"தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
 msgstr ""
+"ஏற்றக்கக்கூடிய மறைக்குறியீடுகள் எதுவும் இல்லாததால் '%1' மெய்நிகர் தனியார் "
+"பிணைய இணைப்பு தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
 msgstr ""
+"தவறான மறைக்குறியீடுகளால் '%1' மெய்நிகர் தனியார் பிணைய இணைப்பு தோல்வியுற்றது."
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr ""
+msgstr "மெய்நிகர் தனியார் பிணைய இணைப்பு தோல்வியுற்றது"
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr ""
+msgstr "நகர்ப்பேசியின் அமைப்புக்கள்…"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr ""
+msgstr "மெய்நிகர் தனியார் பிணையத்தின் அமைப்புக்கள்…"
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
-msgstr ""
+msgstr "அருகலை அமைப்புக்கள்…"
 
 #. TRANSLATORS: this is the indicator title shown on the top header of the indicator area
 #: ../src/indicator/root-state.cpp:306
 msgid "Network"
-msgstr ""
+msgstr "இணைப்பு"
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr ""
+msgstr "மெய்நிகர் தனியார் பிணைய இணைப்பு %1"
