@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2020-12-31 16:31+0000\n"
+"PO-Revision-Date: 2021-01-05 01:43+0000\n"
 "Last-Translator: GK <miscgk@pm.me>\n"
 "Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
 "indicator-network/ta/>\n"
@@ -34,11 +34,11 @@ msgstr "WEP பாதுகாக்கபட்ட அறுகலை"
 
 #: ../src/agent/SecretRequest.cpp:74
 msgid "Connect"
-msgstr "இணைக"
+msgstr "இணைக்கவும்"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "ரத்துசெய்"
+msgstr "தவிர்க்க"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
@@ -84,7 +84,7 @@ msgstr "அகல்நிலை"
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr "அருகலை Wi-Fi"
+msgstr "அருகலை"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
