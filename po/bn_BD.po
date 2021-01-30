@@ -1,28 +1,27 @@
-# Hungarian translation for indicator-network
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the indicator-network package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-network\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2021-01-28 03:24+0000\n"
-"Last-Translator: Adam <padamyno@gmail.com>\n"
-"Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
-"indicator-network/hu/>\n"
-"Language: hu\n"
+"PO-Revision-Date: 2021-01-30 14:27+0000\n"
+"Last-Translator: imrufbd <imrufbd@gmail.com>\n"
+"Language-Team: Bengali (Bangladesh) <https://translate.ubports.com/projects/"
+"ubports/indicator-network/bn_BD/>\n"
+"Language: bn_BD\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.11.3\n"
-"X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
 msgid "Connect to “%1”"
-msgstr "Csatlakozás ide: „%1”"
+msgstr "সংযুক্ত হোন “%1”"
 
 #: ../src/agent/SecretRequest.cpp:66
 msgid "WPA"
@@ -34,242 +33,228 @@ msgstr "WEP"
 
 #: ../src/agent/SecretRequest.cpp:74
 msgid "Connect"
-msgstr "Csatlakozás"
+msgstr "সংযুক্ত হোন"
 
 #: ../src/agent/SecretRequest.cpp:75
 msgid "Cancel"
-msgstr "Mégsem"
+msgstr "বাতিল"
 
 #: ../src/indicator/menuitems/wifi-link-item.cpp:109
 msgid "Other network…"
-msgstr "Más hálózat…"
+msgstr "অন্যান্য নেটওয়ার্ক …"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:90
 msgid "No SIM"
-msgstr "Nincs SIM kártya"
+msgstr "কোন সিম নেই"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:97
 msgid "SIM Error"
-msgstr "SIM kártya hiba"
+msgstr "সিম ত্রুটি"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:105
 msgid "SIM Locked"
-msgstr "SIM kártya zárolva"
+msgstr "সিম লকড"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:118
 msgid "Unregistered"
-msgstr "Nem regisztrált"
+msgstr "অনিবন্ধিত"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:123
 msgid "Unknown"
-msgstr "Ismeretlen"
+msgstr "অজানা"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:128
 msgid "Denied"
-msgstr "Megtagadva"
+msgstr "অস্বীকৃত"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:133
 msgid "Searching"
-msgstr "Keresés"
+msgstr "অনুসন্ধান করছে"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:145
 msgid "No Signal"
-msgstr "Nincs jel"
+msgstr "সিগন্যলবিহীন"
 
 #: ../src/indicator/menuitems/wwan-link-item.cpp:157
 #: ../src/indicator/menuitems/wwan-link-item.cpp:164
 msgid "Offline"
-msgstr "Nem elérhető"
+msgstr "সক্রিয়সংযোগ"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:187
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "ওয়াই-ফাই"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:198
 msgid "Flight Mode"
-msgstr "Repülőgépes mód"
+msgstr "ফ্লাইট-মোড"
 
 #: ../src/indicator/factory.cpp:208
 msgid "Cellular data"
-msgstr "Mobiladatok"
+msgstr "মুঠোফোনের ডাটা"
 
 #. TODO Move this into a new class
 #: ../src/indicator/factory.cpp:219
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr "উষ্ণাঞ্চল"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:144
 msgid "Sorry, incorrect %{1} PIN."
-msgstr "Elnézést, helytelen  %{1} PIN."
+msgstr "দুঃখিত, ভুল %{1} পিন।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:149
 #: ../src/indicator/sim-unlock-dialog.cpp:178
 msgid "This will be your last attempt."
-msgstr "Ez az utolsó próbálkozási lehetősége."
+msgstr "এটি হবে আপনার সর্বশেষ চেষ্টা।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:151
 msgid ""
 "If %{1} PIN is entered incorrectly you will require your PUK code to unlock."
-msgstr ""
-"Ha elrontja a(z) %{1} PIN kódját, a PUK kódra lesz szüksége a feloldáshoz."
+msgstr "যদি %{1} ভুল পিন দেয়া হয় তাহলে খোলার জন্য আপনার PUK কোডের প্রয়োজন হবে।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:161
 msgid "Sorry, your %{1} is now blocked."
-msgstr "Sajnáljuk, a(z) %{1} blokkolva lett."
+msgstr "দুঃখিত আপনার %{1} এখন প্রতিরোধিত।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:166
 msgid "Please enter your PUK code to unblock SIM card."
-msgstr "Adja meg a PUK kódját a SIM kártya feloldásához."
+msgstr "সিমকার্ডের প্রতিরোধ খুলতে PUK কোড দিন।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr ""
-"Lehetséges, hogy fel kell vennie a kapcsolatot a szolgáltatójával a PUK "
-"kódért."
+msgstr "পাক কোডের জন্য নেটওয়ার্ক প্রদানকারী সংস্থার সাথে যোগাযোগ করতে হতে পারে।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
 msgid "Sorry, incorrect PUK."
-msgstr "Sajnáljuk, helytelen PUK."
+msgstr "দুঃখিত ভুল PUK কোড।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:180
 msgid ""
 "If PUK code is entered incorrectly, your SIM card will be blocked and needs "
 "replacement."
 msgstr ""
-"Ha rossz PUK kódot ad meg, a SIM kártyája blokkolva lesz és szükséges lesz "
-"egy másikra."
+"যদি ভুল PUK কোড দেওয়া হয় আপনার সিমটি স্থায়ীভাবে প্রতিরোধিত হবে এবং পরিবর্তনে"
+"র প্রয়োজন হবে।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr "Vegye fel a kapcsolatot a szolgáltatójával."
+msgstr "অনুগ্রহপূর্বক নেটওয়ার্ক প্রদানকারী সংস্থার সাথে যোগাযোগ করুন।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
-msgstr "A SIM kártyája véglegesen blokkolva lett és szüksége lesz egy másikra."
+msgstr ""
+"আপনার সিমটি স্থায়ীভাবে প্রতিরোধ করা হয়েছে এবং কার্ডটি পরিবর্তন করতে হবে।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr "Vegye fel a kapcsolatot a szolgáltatójával."
+msgstr "অনুগ্রহপূর্বক আপনার পরিষেবা প্রদানকারী সংস্থার সাথে যোগাযোগ করুন।"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
-msgstr "Elnézést, helytelen PIN"
+msgstr "দুঃখিত, ভুল পিন"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:230
 msgid "Sorry, incorrect PUK"
-msgstr "Sajnáljuk, helytelen PUK"
+msgstr "দুঃখিত, ভুল PUK"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:292
 msgid "Enter %{1} PIN"
-msgstr "%{1} PIN kód megadása"
+msgstr "%{1} পিন লিখুন"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:300
 msgid "Enter PUK code"
-msgstr "Adja meg a PUK kódót"
+msgstr "PUK কোড লিখুন"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:304
 msgid "Enter PUK code for %{1}"
-msgstr "Adja meg a PUK kódot a következőhöz: %{1}"
+msgstr "%{1} এর জন্য PUK কোড লিখুন"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:315
 #, c-format
 msgid "1 attempt remaining"
 msgid_plural "%d attempts remaining"
-msgstr[0] "1 próbálkozás maradt"
-msgstr[1] "%d próbálkozás maradt"
+msgstr[0] "আরমাত্র ১ বার চেষ্টা করতে পারবেন"
+msgstr[1] "%d বার চেষ্টা করতে পারবেন"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:326
 msgid "Enter new %{1} PIN"
-msgstr "Új %{1} PIN kód megadása"
+msgstr "নতুন %{1} পিন লিখুন"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:334
 msgid "Confirm new %{1} PIN"
-msgstr "Új %{1} PIN megerősítése"
+msgstr "নতুন %{1} পিন নিশ্চিত করুন"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:373
 msgid "PIN codes did not match."
-msgstr "A PIN kódok nem egyeznek."
+msgstr "পিন কোড মিলেনি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:48
 msgid "The VPN connection '%1' failed."
-msgstr "A(z) „%1” VPN-hez kapcsolódás meghiúsult."
+msgstr "'%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:50
 msgid ""
 "The VPN connection '%1' failed because the network connection was "
 "interrupted."
-msgstr ""
-"A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert megszakadt a hálózati "
-"kapcsolat."
+msgstr "নেটওয়ার্ক সংযুক্তি বাধাপ্রাপ্ত হওয়ায় '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:51
 msgid ""
 "The VPN connection '%1' failed because the VPN service stopped unexpectedly."
 msgstr ""
-"A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN szolgáltatás váratlanul "
-"leállt."
+"VPN পরিষেবা অপ্রত্যাশিতভাবে বন্ধ হয়ে যাওয়ায় '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:52
 msgid ""
 "The VPN connection '%1' failed because the VPN service returned invalid "
 "configuration."
-msgstr ""
-"A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN érvénytelen "
-"beállításokkal tért vissza."
+msgstr "VPN পরিষেবার অকেজো সজ্জার প্রত্যাবর্তনে '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:53
 msgid ""
 "The VPN connection '%1' failed because the connection attempt timed out."
-msgstr "A(z) „%1” VPN-hez kapcsolódás meghiúsult időtúllépés miatt."
+msgstr "সংযুক্তি চেষ্টার সময় অতিক্রান্ত হওয়ায় '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:54
 msgid ""
 "The VPN connection '%1' failed because the VPN service did not start in time."
-msgstr ""
-"A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN szolgáltatás nem indult "
-"el időben."
+msgstr "সময়মত VPN পরিষেবা চালু না হওয়ায় '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:55
 msgid "The VPN connection '%1' failed because the VPN service failed to start."
-msgstr ""
-"A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN szolgáltatás nem indult "
-"el időben."
+msgstr "VPN পরিষেবা চালু করতে ব্যর্থ হওয়ায় '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:56
 msgid "The VPN connection '%1' failed because there were no valid VPN secrets."
-msgstr ""
-"A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN nem rendelkezik "
-"érvényes kulcsokkal."
+msgstr "কোন কার্যকর VPN সংগুপ্তি না থাকায় '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:57
 msgid "The VPN connection '%1' failed because of invalid VPN secrets."
-msgstr ""
-"A(z) „%1” VPN-hez kapcsolódás meghiúsult, mert a VPN kulcsai érvénytelenek."
+msgstr "অকেজো VPN সংগুপ্তির কারনে '%1' VPN এ সংযুক্ত করা যায়নি।"
 
 #: ../src/indicator/vpn-status-notifier.cpp:68
 msgid "VPN Connection Failed"
-msgstr "A VPN kapcsolat meghiúsult"
+msgstr "VPN এ সংযুক্ত করা যায়নি"
 
 #: ../src/indicator/sections/wwan-section.cpp:99
 msgid "Cellular settings…"
-msgstr "Mobilhálózat beállítások…"
+msgstr "মুঠোফোনীয় সেটিংস …"
 
 #: ../src/indicator/sections/vpn-section.cpp:140
 msgid "VPN settings…"
-msgstr "VPN beállítások…"
+msgstr "VPN সেটিংস …"
 
 #: ../src/indicator/sections/wifi-section.cpp:65
 msgid "Wi-Fi settings…"
-msgstr "Wi-Fi beállítások…"
+msgstr "ওয়াই-ফাই সেটিংস …"
 
 #. TRANSLATORS: this is the indicator title shown on the top header of the indicator area
 #: ../src/indicator/root-state.cpp:306
 msgid "Network"
-msgstr "Hálózat"
+msgstr "নেটওয়ার্ক"
 
 #: ../src/indicator/nmofono/vpn/vpn-manager.cpp:81
 msgid "VPN connection %1"
-msgstr "%1 VPN kapcsolat"
+msgstr "VPN সংযুক্তি %1"
