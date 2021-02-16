@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-network\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 12:38+0300\n"
-"PO-Revision-Date: 2019-05-08 18:54+0000\n"
+"PO-Revision-Date: 2021-02-15 19:12+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/indicator-network/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-10-21 07:05+0000\n"
 
 #: ../src/agent/SecretRequest.cpp:61
@@ -124,7 +124,7 @@ msgstr "請輸入您的 PUK 碼以解除 SIM 卡封鎖。"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:168
 msgid "You may need to contact your network provider for PUK code."
-msgstr "您可能需要聯絡您的網路提供者以取得 PUK 碼。"
+msgstr "您可能需要聯絡您的網路業者以取得 PUK 碼。"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:176
 #: ../src/indicator/sim-unlock-dialog.cpp:190
@@ -139,7 +139,7 @@ msgstr "如果 PUK 碼輸入錯誤，您的 SIM 卡將被封鎖且必須換新�
 
 #: ../src/indicator/sim-unlock-dialog.cpp:182
 msgid "Please contact your network provider."
-msgstr "請聯絡您的網路提供者。"
+msgstr "請聯絡您的網路業者。"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:192
 msgid "Your SIM card is now permanently blocked and needs replacement."
@@ -147,7 +147,7 @@ msgstr "您的 SIM 卡現在已被永久封鎖且必須換新。"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:194
 msgid "Please contact your service provider."
-msgstr "請聯絡您的網路提供者。"
+msgstr "請聯絡您的網路業者。"
 
 #: ../src/indicator/sim-unlock-dialog.cpp:218
 msgid "Sorry, incorrect PIN"
