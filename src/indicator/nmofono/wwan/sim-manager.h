@@ -53,6 +53,9 @@ public:
 
 Q_SIGNALS:
     void simAdded(Sim::Ptr sim);
+
+public Q_SLOTS:
+    void defaultDataSimChanged(const Sim::Ptr sim);
 };
 
 }
