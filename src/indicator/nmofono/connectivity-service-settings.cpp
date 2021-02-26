@@ -124,9 +124,6 @@ wwan::Sim::Ptr ConnectivityServiceSettings::createSimFromSettings(const QString 
     if (iccid.isNull() ||
             imsi_var.isNull() ||
             primaryPhoneNumber_var.isNull() ||
-            mcc_var.isNull() ||
-            mnc_var.isNull() ||
-            preferredLanguages_var.isNull() ||
             dataRoamingEnabled_var.isNull())
     {
         qWarning() << "Corrupt settings for SIM: " << iccid;
