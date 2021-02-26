@@ -220,6 +220,7 @@ public Q_SLOTS:
         }
         m_settings->saveSimToSettings(m_knownSims[sim_raw->iccid()]);
     }
+
 };
 
 
@@ -253,21 +254,6 @@ SimManager::knownSims() const
 {
     return d->m_knownSims.values();
 }
-
-void
-SimManager::defaultDataSimChanged(const Sim::Ptr sim) {
-    if (sim != nullptr){
-        QDBusConnection bus = QDBusConnection::systemBus();
-        assert(bus.isConnected());
-        QDBusInterface dbus_iface(OFONO_SERVICE,
-                                    OFONO_MANAGER_PATH,
-                                    "org.nemomobile.ofono.ModemManager",
-                                    bus);
-        dbus_iface.call("SetDefaultDataSim",
-                        sim->imsi());
-    }
-}
-
 
 }
 }

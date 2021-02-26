@@ -99,8 +99,7 @@ public:
         p(parent)
     {
     }
-Q_SIGNALS:
-    void defaultDataSimChanged(wwan::Sim::Ptr sim);
+
 
 public Q_SLOTS:
 
@@ -476,7 +475,6 @@ public Q_SLOTS:
         }
 
         Q_EMIT p.simForMobileDataChanged();
-        Q_EMIT defaultDataSimChanged(sim);
     }
 };
 
@@ -516,6 +514,7 @@ ManagerImpl::ManagerImpl(notify::NotificationManager::SPtr notificationManager,
         d(new ManagerImpl::Private(*this))
 {
     d->nm = make_shared<OrgFreedesktopNetworkManagerInterface>(NM_DBUS_SERVICE, NM_DBUS_PATH, systemConnection);
+
     d->m_unlockDialog = make_shared<SimUnlockDialog>(notificationManager);
     connect(d->m_unlockDialog.get(), &SimUnlockDialog::ready, d.get(), &Private::sim_unlock_ready);
 
@@ -525,7 +524,6 @@ ManagerImpl::ManagerImpl(notify::NotificationManager::SPtr notificationManager,
     d->m_settings = make_shared<ConnectivityServiceSettings>();
     d->m_simManager = make_shared<wwan::SimManager>(d->m_ofono, d->m_settings);
     connect(d->m_simManager.get(), &wwan::SimManager::simAdded, d.get(), &Private::simAdded);
-    connect(d.get(), &ManagerImpl::Private::defaultDataSimChanged, d->m_simManager.get(), &wwan::SimManager::defaultDataSimChanged);
     d->m_sims = d->m_simManager->knownSims();
     for (auto sim : d->m_sims)
     {
