@@ -195,7 +195,9 @@ public Q_SLOTS:
         if (!found)
         {
             auto sim = Sim::fromQOfonoSimWrapper(wrapper);
-            connect(sim.get(), &Sim::dataRoamingEnabledChanged, this, &Private::simDataRoamingEnabledChanged);
+            connect(sim.get(), &Sim::dataRoamingEnabledChanged, this, &Private::simPropertyChanged);
+            connect(sim.get(), &Sim::imsiChanged, this, &Private::simPropertyChanged);
+            connect(sim.get(), &Sim::primaryPhoneNumberChanged, this, &Private::simPropertyChanged);
             m_settings->saveSimToSettings(sim);
             m_knownSims[sim->iccid()] = sim;
             m_settings->setKnownSims(m_knownSims.keys());
@@ -203,10 +205,8 @@ public Q_SLOTS:
         }
     }
 
-    void simDataRoamingEnabledChanged(bool value)
+    void simPropertyChanged()
     {
-        Q_UNUSED(value)
-
         auto sim_raw = qobject_cast<Sim*>(sender());
         if (!sim_raw)
         {
@@ -234,7 +234,9 @@ SimManager::SimManager(shared_ptr<QOfonoManager> ofono, ConnectivityServiceSetti
     QStringList iccids = d->m_settings->knownSims();
     for(auto iccid : iccids) {
         auto sim = d->m_settings->createSimFromSettings(iccid);
-        connect(sim.get(), &Sim::dataRoamingEnabledChanged, d.get(), &Private::simDataRoamingEnabledChanged);
+        connect(sim.get(), &Sim::dataRoamingEnabledChanged, d.get(), &Private::simPropertyChanged);
+        connect(sim.get(), &Sim::imsiChanged, d.get(), &Private::simPropertyChanged);
+        connect(sim.get(), &Sim::primaryPhoneNumberChanged, d.get(), &Private::simPropertyChanged);
         if (!sim)
         {
             continue;
