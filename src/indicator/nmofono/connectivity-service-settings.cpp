@@ -150,6 +150,13 @@ void ConnectivityServiceSettings::saveSimToSettings(wwan::Sim::Ptr sim)
     d->m_settings->setValue("PreferredLanguages", QVariant(sim->preferredLanguages()));
     d->m_settings->setValue("DataRoamingEnabled", sim->dataRoamingEnabled());
     d->m_settings->endGroup();
+    qDebug() << Q_FUNC_INFO << "ICCID:" << sim->iccid();
+    qDebug() << "  IMSI" << sim->imsi();
+    qDebug() << "  PrimaryPhoneNumber" << sim->primaryPhoneNumber();
+    qDebug() << "  MCC" << sim->mcc();
+    qDebug() << "  MNC" << sim->mnc();
+    qDebug() << "  PreferredLanguages" << sim->preferredLanguages();
+    qDebug() << "  DataRoamingEnabled" << sim->dataRoamingEnabled();
 }
 
 #include "connectivity-service-settings.moc"

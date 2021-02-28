@@ -241,6 +241,7 @@ public Q_SLOTS:
 
     void loadSettings()
     {
+        qDebug() << Q_FUNC_INFO;
         QVariant ret = m_settings->mobileDataEnabled();
         if (ret.isNull())
         {
@@ -258,6 +259,7 @@ public Q_SLOTS:
         }
 
         ret = m_settings->simForMobileData();
+        qDebug() << "SIM for mobile data:" << ret;
         if (ret.isNull())
         {
             /* This is the first time we are running on a system.
@@ -271,13 +273,20 @@ public Q_SLOTS:
         else
         {
             QString iccid = ret.toString();
+            qDebug() << "iccid:" << iccid;
             wwan::Sim::Ptr sim;
             for(auto i = m_sims.begin(); i != m_sims.end(); i++)
             {
+                qDebug() << "Comparing with SIM:" << (*i)->iccid();
                 if ((*i)->iccid() == iccid) {
                     sim = *i;
                     break;
                 }
+            }
+            if (sim) {
+                qDebug() << "Picked SIM:" << sim->iccid();
+            } else {
+                qDebug() << "SIM not found";
             }
             setSimForMobileData(sim);
         }
@@ -460,10 +469,12 @@ public Q_SLOTS:
 
         if (!sim)
         {
+            qDebug() << Q_FUNC_INFO << "Clearing SIM for mobile data";
             m_settings->setSimForMobileData("");
         }
         else
         {
+            qDebug() << Q_FUNC_INFO << "Setting SIM for mobile data:" << sim->iccid();
             m_settings->setSimForMobileData(sim->iccid());
         }
 
