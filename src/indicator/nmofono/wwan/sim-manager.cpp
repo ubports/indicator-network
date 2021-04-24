@@ -257,13 +257,27 @@ SimManager::knownSims() const
 void
 SimManager::defaultDataSimChanged(const Sim::Ptr sim) {
     if (sim != nullptr){
+        // First enable APN
         QDBusConnection bus = QDBusConnection::systemBus();
         assert(bus.isConnected());
-        QDBusInterface dbus_iface(OFONO_SERVICE,
+        QString path = sim->ofonoPath() + "/context1";
+        QDBusInterface dbus_iface_context(OFONO_SERVICE, 
+                                    path, 
+                                    OFONO_CONNECTION_CONTEXT_INTERFACE,
+                                    bus);
+        if (dbus_iface_context.isValid()) {
+            dbus_iface_context.callWithArgumentList(QDBus::NoBlock, "SetProperty", 
+            {"Preferred", QVariant::fromValue(QDBusVariant(true))});
+        } else {
+            assert(dbus_iface_context.isValid());
+        }
+
+        // Set default data SIM
+        QDBusInterface dbus_iface_modem(OFONO_SERVICE,
                                     OFONO_MANAGER_PATH,
                                     "org.nemomobile.ofono.ModemManager",
                                     bus);
-        dbus_iface.call("SetDefaultDataSim",
+        dbus_iface_modem.call("SetDefaultDataSim",
                         sim->imsi());
     }
 }
