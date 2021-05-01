@@ -296,24 +296,21 @@ public Q_SLOTS:
             {
                 m_wifiEnabled = false;
             }
-            Q_EMIT p.hasWifiUpdated(m_hasWifi);
-            Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
-            return;
-        }
+        } else {
 
-        // ok, killswitch not supported, but we still might have wifi devices
-        bool haswifi = false;
-        for (auto link : m_nmLinks)
-        {
-            if (link->type() == Link::Type::wifi)
+            // ok, killswitch not supported, but we still might have wifi devices
+            for (auto link : m_nmLinks)
             {
-                haswifi = true;
+                if (link->type() == Link::Type::wifi)
+                {
+                    m_hasWifi = m_wifiEnabled = true;
+                    break;
+                }
             }
         }
-        m_hasWifi = haswifi;
-        m_wifiEnabled = haswifi;
         Q_EMIT p.hasWifiUpdated(m_hasWifi);
         Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
+        qDebug() << "HasWiFi:" << m_hasWifi << "enabled:" << m_wifiEnabled;
     }
 
     void updateModemAvailable()
