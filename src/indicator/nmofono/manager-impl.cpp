@@ -754,6 +754,7 @@ ManagerImpl::device_added(const QDBusObjectPath &path)
     }
 
     if (link) {
+        connect(link.get(), &Link::isManagedChanged, this, &Manager::linksUpdated);
         d->m_nmLinks.insert(link);
         Q_EMIT linksUpdated();
     }
@@ -878,7 +879,7 @@ ManagerImpl::wifiLinks() const
     QSet<wifi::WifiLink::Ptr> result;
     for(auto link: d->m_nmLinks)
     {
-        if (link->type() == Link::Type::wifi)
+        if (link->type() == Link::Type::wifi && link->isManaged())
         {
             result.insert(dynamic_pointer_cast<wifi::WifiLink>(link));
         }

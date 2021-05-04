@@ -100,6 +100,7 @@ public:
         }
 
         m_isManaged = value;
+        qWarning() << "isManaged changed for" << m_dev->interface() << "to" << (m_isManaged? "true" : "false");
         Q_EMIT p.isManagedChanged(m_isManaged);
     }
 
