@@ -286,8 +286,8 @@ public Q_SLOTS:
 
     void updateHasWifi()
     {
-        bool hasWifi;
-        bool hasWifiEnabled;
+        bool hasWifi = false;
+        bool hasWifiEnabled = false;
 
         if (m_killSwitch->state() != KillSwitch::State::not_available)
         {
