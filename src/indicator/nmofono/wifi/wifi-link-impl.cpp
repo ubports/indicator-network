@@ -111,7 +111,10 @@ public:
         if (new_state == NM_DEVICE_STATE_UNMANAGED) {
             // Mark unmanaged adapters as such.
             setIsManaged(false);
+        } else {
+            setIsManaged(true); 
         }
+
 
         switch (new_state){
         case NM_DEVICE_STATE_DISCONNECTED:
