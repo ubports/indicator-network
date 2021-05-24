@@ -100,6 +100,7 @@ public:
         }
 
         m_isManaged = value;
+        qWarning() << "isManaged changed for" << m_dev->interface() << "to" << (m_isManaged? "true" : "false");
         Q_EMIT p.isManagedChanged(m_isManaged);
     }
 
@@ -110,7 +111,10 @@ public:
         if (new_state == NM_DEVICE_STATE_UNMANAGED) {
             // Mark unmanaged adapters as such.
             setIsManaged(false);
+        } else {
+            setIsManaged(true); 
         }
+
 
         switch (new_state){
         case NM_DEVICE_STATE_DISCONNECTED:

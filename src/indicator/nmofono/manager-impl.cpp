@@ -286,41 +286,37 @@ public Q_SLOTS:
 
     void updateHasWifi()
     {
+        bool hasWifi = false;
+        bool hasWifiEnabled = false;
+
         if (m_killSwitch->state() != KillSwitch::State::not_available)
         {
-            bool hasWifi = true;
+            hasWifi = true;
             if (m_killSwitch->state() == KillSwitch::State::unblocked)
             {
-                m_wifiEnabled = true;
+                hasWifiEnabled = true;
             }
-            else
+        } else {
+            // ok, killswitch not supported, but we still might have wifi devices
+            for (auto link : m_nmLinks)
             {
-                m_wifiEnabled = false;
+                if (link->type() == Link::Type::wifi)
+                {
+                    hasWifi = true;
+                    break;
+                }
             }
-
-            if (hasWifi != m_hasWifi) {
-                m_hasWifi = hasWifi;
-                Q_EMIT p.hasWifiUpdated(m_hasWifi);
-            }
-            Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
-            return;
-        }
-
-        // ok, killswitch not supported, but we still might have wifi devices
-        bool hasWifi = false;
-        for (auto link : m_nmLinks)
-        {
-            if (link->type() == Link::Type::wifi)
-            {
-                hasWifi = true;
-            }
+            hasWifiEnabled = hasWifi && (nm && nm->wirelessEnabled());
         }
         if (hasWifi != m_hasWifi) {
             m_hasWifi = hasWifi;
             Q_EMIT p.hasWifiUpdated(m_hasWifi);
         }
-        m_wifiEnabled = hasWifi && (nm && nm->wirelessEnabled());
-        Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
+        if (hasWifiEnabled != m_wifiEnabled) {
+            m_wifiEnabled = hasWifiEnabled;
+            Q_EMIT p.wifiEnabledUpdated(m_wifiEnabled);
+        }
+
     }
 
     void updateModemAvailable()
@@ -758,6 +754,7 @@ ManagerImpl::device_added(const QDBusObjectPath &path)
     }
 
     if (link) {
+        connect(link.get(), &Link::isManagedChanged, this, &Manager::linksUpdated);
         d->m_nmLinks.insert(link);
         Q_EMIT linksUpdated();
     }
