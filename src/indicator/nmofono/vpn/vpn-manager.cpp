@@ -17,6 +17,7 @@
  *     Pete Woods <pete.woods@canonical.com>
  */
 
+#include <glib.h>
 #include <nmofono/vpn/vpn-manager.h>
 #include <util/localisation.h>
 #include <NetworkManager.h>
@@ -278,52 +279,65 @@ QString VpnManager::addConnection(VpnConnection::Type type)
     return uuid;
 }
 
-QString VpnManager::importConnection(VpnConnection::Type type, QString filepath)
+QString VpnManager::importConnection(QString filepath)
 {
-    QStringList arguments;
+    NMConnection *conn = NULL;
+    GSList *      plugins;
+    GSList *      iter;
 
-    arguments << "connection" << "import" << "type";
-    
-    switch (type)
-    {
-        case VpnConnection::Type::openvpn:
-            arguments << "openvpn";
-            break;
-        case VpnConnection::Type::pptp:
-            arguments << "pptp";
-            break;
-    };
-
-    arguments << "file" << filepath;
-
-    qDebug() << "Import VPN start nmcli " << arguments;
-    QProcess nmcli;
-    nmcli.start("nmcli", arguments);
-
-    if (!nmcli.waitForFinished()) {
-        qDebug() << "Import VPN connection nmcli error=" << nmcli.errorString();
-        throw domain_error(qPrintable("nmcli failed: " + nmcli.errorString()));
+    if (filepath.isEmpty()) {
+        g_print("Import VPN connection error="
+            "didn't get a filename back from the chooser!"
+        );
+        throw domain_error(qPrintable("Import VPN connection failed: "
+            "didn't get a filename back from the chooser!"));
     }
 
-    QString outputErr = nmcli.readAllStandardError();
-    if (!outputErr.isEmpty()) {
-        throw domain_error(qPrintable("nmcli failed: " + outputErr));
-    }
-    
-    QString output = nmcli.readAllStandardOutput();
-    qDebug() << "Import VPN connection nmcli logs=" << output;
-    if (output.isEmpty()) {
-        throw domain_error(qPrintable("nmcli failed: no log"));
-    } else {
-        // Take just the first line
-        QStringList res = output.split("(");
-        qDebug() << "Import VPN connection res=" << res;
-        if (res.isEmpty()) {
-            throw domain_error(qPrintable("nmcli failed: no res"));
+    plugins = nm_vpn_plugin_info_list_load();
+
+    for (iter = plugins; iter; iter = iter->next) {
+        GError *           error  = NULL;
+        NMVpnPluginInfo *  plugin = (NMVpnPluginInfo*) iter->data;
+        NMVpnEditorPlugin *editor;
+        const char *       plugin_name = nm_vpn_plugin_info_get_name(plugin);
+
+        g_print("plugin[%s]: trying import...\n", plugin_name);
+
+        editor = nm_vpn_plugin_info_load_editor_plugin(plugin, &error);
+        if (error) {
+            g_print("plugin[%s]: error loading plugin: %s\n", plugin_name, error->message);
+            g_clear_error(&error);
+            continue;
         }
-        return res.last().split(")").first();
+
+        conn = nm_vpn_editor_plugin_import(editor, filepath.toStdString().c_str(), &error);
+        if (error) {
+            g_print("plugin[%s]: error importing file: %s\n", plugin_name, error->message);
+            g_clear_error(&error);
+            continue;
+        }
+
+        if (!nm_connection_normalize(conn, NULL, NULL, &error)) {
+            g_print("plugin[%s]: imported connection invalid: %s\n", plugin_name, error->message);
+            g_clear_error(&error);
+            g_clear_object(&conn);
+            continue;
+        }
+
+        g_print("plugin[%s]: imported connection \"%s\" (%s)\n",
+                plugin_name,
+                nm_connection_get_id(conn),
+                nm_connection_get_uuid(conn));
+        break;
     }
-    throw domain_error(qPrintable("nmcli failed!"));
+    g_slist_free_full(plugins, g_object_unref);
+
+    if (!conn) {
+        g_print("Failure to import the file with any plugin\n");
+        return NULL;
+    }
+
+    return strcat("imported connection: ", nm_connection_get_id(conn));
 }
 
 }

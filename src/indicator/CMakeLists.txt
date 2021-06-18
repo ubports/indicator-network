@@ -143,6 +143,7 @@ target_link_libraries(
     ${QOFONO_LDFLAGS}
     Qt5::Core
     Qt5::DBus
+    nm
 )
 
 ###########################
@@ -159,6 +160,7 @@ target_link_libraries(
     indicator-network-service-static
     Qt5::Core
     Qt5::DBus
+    nm
 )
 
 ###########################

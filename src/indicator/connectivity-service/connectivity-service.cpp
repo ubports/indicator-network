@@ -607,7 +607,7 @@ QDBusObjectPath PrivateService::ImportVpnConnection(int type, const QString &fil
         {
             qDebug() << "Import VPN connection, type=" << type << " and filepath=" << filepath;
             QString uuid = p.d->m_vpnManager->importConnection(
-                    static_cast<VpnConnection::Type>(type), filepath);
+                    filepath);
             qDebug() << "Import VPN connection OK uuid=" << uuid;
             p.d->m_addQueue[uuid] = message();
         }
