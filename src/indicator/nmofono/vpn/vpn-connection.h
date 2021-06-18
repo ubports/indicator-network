@@ -75,6 +75,14 @@ public:
 
     PptpConnection::SPtr pptpConnection() const;
 
+    static const char * TypeString(Type type) {
+        switch (type) {
+            case Type::openvpn:     return "openvpn";
+            case Type::pptp:        return "pptp";
+            default:                return "";
+	}
+    }
+
 public Q_SLOTS:
     void setActive(bool active);
 

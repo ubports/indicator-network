@@ -65,10 +65,10 @@ pkg_check_modules(
 include_directories(${OFONO_INCLUDE_DIRS})
 
 pkg_check_modules(
-    NETWORKMANAGER REQUIRED
-    NetworkManager
+    LIBNM REQUIRED
+    libnm
 )
-include_directories(${NETWORKMANAGER_INCLUDE_DIRS})
+include_directories(${LIBNM_INCLUDE_DIRS})
 
 pkg_check_modules(
   LIBSECRET REQUIRED
