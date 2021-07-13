@@ -237,10 +237,8 @@ QVariantDictMap SecretAgent::GetSecrets(const QVariantDictMap &connection,
 	// If we want a WiFi secret, and
 	if (settingName == NM_WIRELESS_SECURITY_SETTING_NAME &&
 			((flags & NM_SECRET_AGENT_GET_SECRETS_FLAG_ALLOW_INTERACTION) > 0) &&
-			(
-				((flags & NM_SECRET_AGENT_GET_SECRETS_FLAG_REQUEST_NEW) > 0) ||
-				((flags & NM_SECRET_AGENT_GET_SECRETS_FLAG_USER_REQUESTED) > 0)
-			)) {
+			((flags & NM_SECRET_AGENT_GET_SECRETS_FLAG_USER_REQUESTED) > 0)
+       ) {
 		qDebug() << "Requesting secret from user";
 		d->m_request.reset(new SecretRequest(*this, connection,
 						connectionPath, settingName, hints, flags, message()));
