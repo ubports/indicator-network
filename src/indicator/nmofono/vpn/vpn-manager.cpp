@@ -281,45 +281,67 @@ QString VpnManager::addConnection(VpnConnection::Type type)
     return uuid;
 }
 
+
 QString VpnManager::importConnection(VpnConnection::Type type, const QString& filepath)
 {
-    GSList *      plugins;
-
-    if (filepath.isEmpty()) {
+    if (filepath.isEmpty())
+    {
         throw std::runtime_error("Import VPN connection failed: "
             "didn't get a filename back from the chooser!");
     }
 
-    plugins = nm_vpn_plugin_info_list_load();
-    std::shared_ptr<NMVpnPluginInfo> plugin(
-        nm_vpn_plugin_info_list_find_by_name(
-            plugins,
-            VpnConnection::TypeString(type)
-        )
-    );
+    // Wrap the plugins list with shared_ptr to ensure clearing on dereference
+    std::shared_ptr<GSList> plugins
+    {
+        nm_vpn_plugin_info_list_load(),
+        [](auto list)
+        {
+            g_slist_free_full(list,
+                              g_object_unref);
+        }
+    };
+    // plugin is [[transfer:none]] from libnm so will be freed with %plugins
+    auto plugin = nm_vpn_plugin_info_list_find_by_name(
+        plugins.get(),
+        VpnConnection::TypeString(type));
 
-    GError *           error  = NULL;
-    NMVpnEditorPlugin *editor;
+    GError* error = nullptr;
 
-    editor = nm_vpn_plugin_info_load_editor_plugin(plugin.get(), &error);
+    // editor is [[transfer:none]] from libnm so will be freed with  %plugins
+    auto editor = nm_vpn_plugin_info_load_editor_plugin(plugin, &error);
     if (error)
+    {
+        std::string msg{error->message};
         g_clear_error(&error);
-
-    NMConnection *conn = nm_vpn_editor_plugin_import(
-        editor,
-        filepath.toStdString().c_str(),
-        &error
-    );
-    if (error)
-        g_clear_error(&error);
-
-    if (!nm_connection_normalize(conn, NULL, NULL, &error)) {
-        g_clear_error(&error);
-        g_clear_object(&conn);
+        throw std::runtime_error(msg);
     }
 
-    auto uuid = QString(nm_connection_get_id(conn));
-    return uuid;
+    // Wrap the connection with shared_ptr to ensure clearing on dereference
+    std::shared_ptr<NMConnection> conn
+    {
+        nm_vpn_editor_plugin_import(editor,
+                                    filepath.toStdString().c_str(),
+                                    &error),
+        [](auto connection)
+        {
+            g_clear_object(&connection);
+        }
+    };
+    if (error)
+    {
+        std::string msg{error->message};
+        g_clear_error(&error);
+        throw std::runtime_error(msg);
+    }
+
+    if (!nm_connection_normalize(conn.get(), NULL, NULL, &error))
+    {
+        std::string msg{error->message};
+        g_clear_error(&error);
+        throw std::runtime_error(msg);
+    }
+
+    return QString::fromUtf8(nm_connection_get_id(conn.get()));
 }
 
 }
