@@ -202,6 +202,8 @@ protected:
                                 },
                                 const QStringMap& secrets = {});
 
+    QString importVpnConnection();
+
     void deleteSettings(const QString& path);
 
     connectivityqt::Connectivity::UPtr newConnectivity();

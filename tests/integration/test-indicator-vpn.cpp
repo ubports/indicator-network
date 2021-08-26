@@ -217,4 +217,32 @@ TEST_F(TestIndicatorVpn, DeactivatesConnection)
     );
 }
 
+TEST_F(TestIndicatorVpn, importConnection)
+{
+    // Add VPN configurations
+    auto sampleConnection = importVpnConnection();
+
+    // Add a physical device to use for the connection
+    setGlobalConnectedState(NM_STATE_CONNECTED_GLOBAL);
+    auto device = createWiFiDevice(NM_DEVICE_STATE_ACTIVATED);
+
+    ASSERT_NO_THROW(startIndicator());
+
+    EXPECT_MATCHRESULT(mh::MenuMatcher(phoneParameters())
+        .item(mh::MenuItemMatcher()
+            .mode(mh::MenuItemMatcher::Mode::all)
+            .submenu()
+            .item(flightModeSwitch())
+            .item(mh::MenuItemMatcher())
+            .item(wifiEnableSwitch())
+            .item(mh::MenuItemMatcher())
+            .item(wifiSettings())
+            .item(mh::MenuItemMatcher()
+                .section()
+                .item(vpnConnection("sample"))
+                .item(vpnSettings())
+            )
+        ).match());
+}
+
 } // namespace

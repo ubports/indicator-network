@@ -18,6 +18,7 @@
 
 #include <indicator-network-test-base.h>
 #include <dbus-types.h>
+#include <vpn-manager.h>
 
 #include <NetworkManager.h>
 #include <NetworkManagerSettingsConnectionInterface.h>
@@ -602,6 +603,29 @@ QString IndicatorNetworkTestBase::createVpnConnection(const QString& id,
     }
     QDBusObjectPath path(reply);
     return path.path();
+}
+
+QString IndicatorNetworkTestBase::importVpnConnection()
+{
+    nmofono::connection::ActiveConnectionManager::SPtr actConnManager =
+        make_shared<nmofono::connection::ActiveConnectionManager>(
+            QDBusConnection::systemBus()
+        );
+    nmofono::vpn::VpnManager::SPtr vpnManager = make_shared<nmofono::vpn::VpnManager>(
+        actConnManager,
+        QDBusConnection::systemBus()
+    );
+    const QString& ovpn_sample("sample.ovpn");
+
+    auto reply = vpnManager->importConnection(
+        nmofono::vpn::VpnConnection::Type::openvpn,
+        ovpn_sample
+    );
+    if (reply.isNull())
+    {
+        EXPECT_FALSE(reply.isNull()) << std::string("Connection import failed");
+    }
+    return reply;
 }
 
 void IndicatorNetworkTestBase::deleteSettings(const QString& path)
