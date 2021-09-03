@@ -28,7 +28,23 @@
 #include <NetworkManagerInterface.h>
 #include <NetworkManagerSettingsInterface.h>
 
+#include <menumodel-cpp/gio-helpers/util.h>
+
 using namespace std;
+
+typedef struct {
+    GError *            error;
+    NMRemoteConnection *rconn;
+} RequestData;
+
+static void
+add_cb(GObject *source, GAsyncResult *result, gpointer user_data)
+{
+    RequestData *rdata = (RequestData *) user_data;
+
+    rdata->rconn = nm_client_add_connection_finish(NM_CLIENT(source), result, &rdata->error);
+    g_main_loop_quit(nullptr);
+}
 
 namespace nmofono
 {
@@ -334,10 +350,38 @@ QString VpnManager::importConnection(VpnConnection::Type type, const QString& fi
         throw std::runtime_error(msg);
     }
 
-    if (!nm_connection_normalize(conn.get(), NULL, NULL, &error))
+    if (!nm_connection_normalize(conn.get(), nullptr, nullptr, &error))
     {
         std::string msg{error->message};
         g_clear_error(&error);
+        throw std::runtime_error(msg);
+    }
+
+    std::shared_ptr<NMClient> cli
+    {
+        nm_client_new(nullptr, &error),
+        [](auto client)
+        {
+            g_clear_object(&client);
+        }
+    };
+    if (!cli)
+    {
+        std::string msg{error->message};
+        throw std::runtime_error(msg);
+    }
+
+    RequestData rdata;
+    rdata.rconn = nullptr;
+    rdata.error = nullptr;
+
+    nm_client_add_connection_async(cli.get(), conn.get(), true, nullptr, add_cb, &rdata);
+    runGMainloop();
+    g_clear_object(&rdata.rconn);
+
+    if (rdata.error) {
+        std::string msg{rdata.error->message};
+        g_clear_error(&rdata.error);
         throw std::runtime_error(msg);
     }
 
